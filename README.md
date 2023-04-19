@@ -1,4 +1,4 @@
-# Plant_Monitor_STM32
+# Plant_Monitor
 
 This projects enables you to monitor the well being and related paramteres of your plants via a simple dashboard and reminds you to water the plant if neccessary.
 
