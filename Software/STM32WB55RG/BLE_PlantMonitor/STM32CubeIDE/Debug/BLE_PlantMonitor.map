@@ -2301,6 +2301,262 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x13a ./Application/User/STM32_WPAN/App/dis_app.o
  .debug_macro   0x0000000000000000      0x5c6 ./Application/User/STM32_WPAN/App/dis_app.o
  .debug_macro   0x0000000000000000       0x3a ./Application/User/STM32_WPAN/App/dis_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/ess_app.o
+ .text          0x0000000000000000        0x0 ./Application/User/STM32_WPAN/App/ess_app.o
+ .data          0x0000000000000000        0x0 ./Application/User/STM32_WPAN/App/ess_app.o
+ .bss           0x0000000000000000        0x0 ./Application/User/STM32_WPAN/App/ess_app.o
+ .bss.ESSAPP_Context
+                0x0000000000000000        0x4 ./Application/User/STM32_WPAN/App/ess_app.o
+ .text.ESSAPP_Init
+                0x0000000000000000       0x2c ./Application/User/STM32_WPAN/App/ess_app.o
+ .text.ESSAPP_Measurement
+                0x0000000000000000       0x34 ./Application/User/STM32_WPAN/App/ess_app.o
+ .text.ESMeas   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/ess_app.o
+ .text.ESSAPP_Read_RTC_SSR_SS
+                0x0000000000000000       0x18 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_info    0x0000000000000000      0x52c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_abbrev  0x0000000000000000      0x18c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_aranges
+                0x0000000000000000       0x38 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_ranges  0x0000000000000000       0x28 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x6bc ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0xa7e ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x22 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x8e ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x51 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x103 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x6a ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x1df ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x52 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x1e ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x3c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x34 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x174 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x16 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x43 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x34 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x58 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x71 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x12a ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x341 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x35 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x20 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x52 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x22 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x52 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0xd5 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x3d ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x16 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x145 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x16 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x16 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x29 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x4c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x170 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x2e ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x2e ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x22 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0xfb ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000     0x1011 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x11f ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000    0x12adb ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x6c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x148 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000     0x34c5 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x56 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x3f5 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x286 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x30d ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x17e ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x43 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0xc98 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x5b4 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x1ca ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x236 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x24a ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x57b ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x2e ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x100 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x1ba ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x1cd ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x4a ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x4a ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x381 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x13d ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x141 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x4ff ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x874 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x259 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000     0x1bb1 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0xe4 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x5e7 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0xb9 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x352 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x4e5 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0xdd ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x693 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0xa6 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x557 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x433 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x82 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x1a8 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x45 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0xf5 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x14d ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x45b ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x52 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x20a ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x67 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x2dd ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0xa0 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0xb2 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0xe2 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x42d ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x774 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x15c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x22 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x2e ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x6a ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x67 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x28 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x13a ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000      0x5c6 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_macro   0x0000000000000000       0x22 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_line    0x0000000000000000     0x14b6 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_str     0x0000000000000000    0xf4b49 ./Application/User/STM32_WPAN/App/ess_app.o
+ .comment       0x0000000000000000       0x51 ./Application/User/STM32_WPAN/App/ess_app.o
+ .debug_frame   0x0000000000000000       0x8c ./Application/User/STM32_WPAN/App/ess_app.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Application/User/STM32_WPAN/App/ess_app.o
  .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/hrs_app.o
  .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/hrs_app.o
  .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/hrs_app.o
@@ -2536,264 +2792,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x13a ./Application/User/STM32_WPAN/App/hrs_app.o
  .debug_macro   0x0000000000000000      0x5c6 ./Application/User/STM32_WPAN/App/hrs_app.o
  .debug_macro   0x0000000000000000       0x22 ./Application/User/STM32_WPAN/App/hrs_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/App/pms_app.o
- .text          0x0000000000000000        0x0 ./Application/User/STM32_WPAN/App/pms_app.o
- .data          0x0000000000000000        0x0 ./Application/User/STM32_WPAN/App/pms_app.o
- .bss           0x0000000000000000        0x0 ./Application/User/STM32_WPAN/App/pms_app.o
- .bss.HRSAPP_Context
-                0x0000000000000000        0xe ./Application/User/STM32_WPAN/App/pms_app.o
- .text.PMS_Notification
-                0x0000000000000000       0x60 ./Application/User/STM32_WPAN/App/pms_app.o
- .text.PMSAPP_Init
-                0x0000000000000000       0x94 ./Application/User/STM32_WPAN/App/pms_app.o
- .text.PMSAPP_Measurement
-                0x0000000000000000       0x68 ./Application/User/STM32_WPAN/App/pms_app.o
- .text.PHMeas   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/pms_app.o
- .text.PMSAPP_Read_RTC_SSR_SS
-                0x0000000000000000       0x18 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_info    0x0000000000000000      0x73a ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_abbrev  0x0000000000000000      0x1f8 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_aranges
-                0x0000000000000000       0x40 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_ranges  0x0000000000000000       0x30 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x6ae ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0xa7e ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x22 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x8e ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x51 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x103 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x6a ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x1df ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x52 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x1e ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x3c ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x34 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x174 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x16 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x43 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x34 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x58 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x71 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x12a ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x341 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x35 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x20 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x52 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x22 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x52 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0xd5 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x3d ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x16 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x145 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x16 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x16 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x29 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x4c ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x170 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x2e ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x2e ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x22 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0xfb ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000     0x1011 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x11f ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000    0x12adb ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x6c ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x148 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000     0x34c5 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x56 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x3f5 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x286 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x30d ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x17e ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x43 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0xc98 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x5b4 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x1ca ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x236 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x24a ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x57b ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x2e ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x100 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x1ba ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x1cd ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x4a ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x4a ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x381 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x13d ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x141 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x4ff ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x874 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x259 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000     0x1bb1 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0xe4 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x5e7 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0xb9 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x352 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x4e5 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0xdd ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x693 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0xa6 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x557 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x433 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x82 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x1a8 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x45 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0xf5 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x14d ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x45b ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x52 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x20a ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x67 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x2dd ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0xa0 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0xb2 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0xe2 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x42d ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x774 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x15c ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x22 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x2e ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x6a ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x10 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x67 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x28 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x1c ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x13a ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000      0x5c6 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_macro   0x0000000000000000       0x22 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_line    0x0000000000000000     0x14e7 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_str     0x0000000000000000    0xf4e76 ./Application/User/STM32_WPAN/App/pms_app.o
- .comment       0x0000000000000000       0x51 ./Application/User/STM32_WPAN/App/pms_app.o
- .debug_frame   0x0000000000000000       0xb8 ./Application/User/STM32_WPAN/App/pms_app.o
- .ARM.attributes
-                0x0000000000000000       0x34 ./Application/User/STM32_WPAN/App/pms_app.o
  .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/Target/hw_ipcc.o
  .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/Target/hw_ipcc.o
  .group         0x0000000000000000        0xc ./Application/User/STM32_WPAN/Target/hw_ipcc.o
@@ -8048,6 +8046,21 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 ./Middlewares/STM32_WPAN/dis.o
  .debug_macro   0x0000000000000000      0x5c6 ./Middlewares/STM32_WPAN/dis.o
  .debug_macro   0x0000000000000000       0x1c ./Middlewares/STM32_WPAN/dis.o
+ .group         0x0000000000000000        0xc ./Middlewares/STM32_WPAN/ess.o
+ .text          0x0000000000000000        0x0 ./Middlewares/STM32_WPAN/ess.o
+ .data          0x0000000000000000        0x0 ./Middlewares/STM32_WPAN/ess.o
+ .bss           0x0000000000000000        0x0 ./Middlewares/STM32_WPAN/ess.o
+ .debug_info    0x0000000000000000       0x21 ./Middlewares/STM32_WPAN/ess.o
+ .debug_abbrev  0x0000000000000000       0x13 ./Middlewares/STM32_WPAN/ess.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Middlewares/STM32_WPAN/ess.o
+ .debug_macro   0x0000000000000000       0x11 ./Middlewares/STM32_WPAN/ess.o
+ .debug_macro   0x0000000000000000      0xa7e ./Middlewares/STM32_WPAN/ess.o
+ .debug_line    0x0000000000000000       0x40 ./Middlewares/STM32_WPAN/ess.o
+ .debug_str     0x0000000000000000     0x2d36 ./Middlewares/STM32_WPAN/ess.o
+ .comment       0x0000000000000000       0x51 ./Middlewares/STM32_WPAN/ess.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Middlewares/STM32_WPAN/ess.o
  .group         0x0000000000000000        0xc ./Middlewares/STM32_WPAN/hci_tl.o
  .group         0x0000000000000000        0xc ./Middlewares/STM32_WPAN/hci_tl.o
  .group         0x0000000000000000        0xc ./Middlewares/STM32_WPAN/hci_tl.o
@@ -10762,8 +10775,8 @@ LOAD ./Application/User/Core/syscalls.o
 LOAD ./Application/User/Core/sysmem.o
 LOAD ./Application/User/STM32_WPAN/App/app_ble.o
 LOAD ./Application/User/STM32_WPAN/App/dis_app.o
+LOAD ./Application/User/STM32_WPAN/App/ess_app.o
 LOAD ./Application/User/STM32_WPAN/App/hrs_app.o
-LOAD ./Application/User/STM32_WPAN/App/pms_app.o
 LOAD ./Application/User/STM32_WPAN/Target/hw_ipcc.o
 LOAD ./Application/User/Startup/startup_stm32wb55rgvx.o
 LOAD ./Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o
@@ -10797,6 +10810,7 @@ LOAD ./Middlewares/STM32_WPAN/ble_hci_le.o
 LOAD ./Middlewares/STM32_WPAN/ble_l2cap_aci.o
 LOAD ./Middlewares/STM32_WPAN/dbg_trace.o
 LOAD ./Middlewares/STM32_WPAN/dis.o
+LOAD ./Middlewares/STM32_WPAN/ess.o
 LOAD ./Middlewares/STM32_WPAN/hci_tl.o
 LOAD ./Middlewares/STM32_WPAN/hci_tl_if.o
 LOAD ./Middlewares/STM32_WPAN/hrs.o
@@ -12111,83 +12125,83 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
 .iplt           0x000000000800b1d4        0x0
  .iplt          0x000000000800b1d4        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x000000000800b1d4      0x2a8
+.rodata         0x000000000800b1d4      0x2b0
                 0x000000000800b1d4                . = ALIGN (0x4)
  *(.rodata)
  .rodata        0x000000000800b1d4       0x1b ./Application/User/Core/app_debug.o
  *fill*         0x000000000800b1ef        0x1 
  .rodata        0x000000000800b1f0        0xc ./Application/User/Core/app_entry.o
- .rodata        0x000000000800b1fc       0x3f ./Application/User/STM32_WPAN/App/app_ble.o
- *fill*         0x000000000800b23b        0x1 
- .rodata        0x000000000800b23c        0x4 ./Application/User/STM32_WPAN/App/dis_app.o
- .rodata        0x000000000800b240       0x2c ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc.o
+ .rodata        0x000000000800b1fc       0x42 ./Application/User/STM32_WPAN/App/app_ble.o
+ *fill*         0x000000000800b23e        0x2 
+ .rodata        0x000000000800b240        0x4 ./Application/User/STM32_WPAN/App/dis_app.o
+ .rodata        0x000000000800b244       0x2c ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc.o
  *(.rodata*)
  .rodata.aGpioConfigList
-                0x000000000800b26c      0x130 ./Application/User/Core/app_debug.o
+                0x000000000800b270      0x130 ./Application/User/Core/app_debug.o
  .rodata.UTIL_PowerDriver
-                0x000000000800b39c       0x18 ./Application/User/Core/stm32_lpm_if.o
-                0x000000000800b39c                UTIL_PowerDriver
+                0x000000000800b3a0       0x18 ./Application/User/Core/stm32_lpm_if.o
+                0x000000000800b3a0                UTIL_PowerDriver
  .rodata.a_MBdAddr
-                0x000000000800b3b4        0x6 ./Application/User/STM32_WPAN/App/app_ble.o
- *fill*         0x000000000800b3ba        0x2 
+                0x000000000800b3b8        0x6 ./Application/User/STM32_WPAN/App/app_ble.o
+ *fill*         0x000000000800b3be        0x2 
  .rodata.a_BLE_CfgIrValue
-                0x000000000800b3bc       0x10 ./Application/User/STM32_WPAN/App/app_ble.o
+                0x000000000800b3c0       0x10 ./Application/User/STM32_WPAN/App/app_ble.o
  .rodata.a_BLE_CfgErValue
-                0x000000000800b3cc       0x10 ./Application/User/STM32_WPAN/App/app_ble.o
+                0x000000000800b3d0       0x10 ./Application/User/STM32_WPAN/App/app_ble.o
  .rodata.a_LocalName
-                0x000000000800b3dc        0x3 ./Application/User/STM32_WPAN/App/app_ble.o
- *fill*         0x000000000800b3df        0x1 
- .rodata.BUTTON_PIN
-                0x000000000800b3e0        0x6 ./Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o
-                0x000000000800b3e0                BUTTON_PIN
+                0x000000000800b3e0        0x6 ./Application/User/STM32_WPAN/App/app_ble.o
  *fill*         0x000000000800b3e6        0x2 
+ .rodata.BUTTON_PIN
+                0x000000000800b3e8        0x6 ./Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o
+                0x000000000800b3e8                BUTTON_PIN
+ *fill*         0x000000000800b3ee        0x2 
  .rodata.BUTTON_IRQn
-                0x000000000800b3e8        0x3 ./Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o
-                0x000000000800b3e8                BUTTON_IRQn
- *fill*         0x000000000800b3eb        0x1 
+                0x000000000800b3f0        0x3 ./Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o
+                0x000000000800b3f0                BUTTON_IRQn
+ *fill*         0x000000000800b3f3        0x1 
  .rodata.AHBPrescTable
-                0x000000000800b3ec       0x40 ./Drivers/CMSIS/system_stm32wbxx.o
-                0x000000000800b3ec                AHBPrescTable
+                0x000000000800b3f4       0x40 ./Drivers/CMSIS/system_stm32wbxx.o
+                0x000000000800b3f4                AHBPrescTable
  .rodata.MSIRangeTable
-                0x000000000800b42c       0x40 ./Drivers/CMSIS/system_stm32wbxx.o
-                0x000000000800b42c                MSIRangeTable
+                0x000000000800b434       0x40 ./Drivers/CMSIS/system_stm32wbxx.o
+                0x000000000800b434                MSIRangeTable
  .rodata.SEQ_clz_table_4bit
-                0x000000000800b46c       0x10 ./Utilities/stm32_seq.o
-                0x000000000800b46c                SEQ_clz_table_4bit
-                0x000000000800b47c                . = ALIGN (0x4)
+                0x000000000800b474       0x10 ./Utilities/stm32_seq.o
+                0x000000000800b474                SEQ_clz_table_4bit
+                0x000000000800b484                . = ALIGN (0x4)
 
-.rel.dyn        0x000000000800b47c        0x0
- .rel.iplt      0x000000000800b47c        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x000000000800b484        0x0
+ .rel.iplt      0x000000000800b484        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x000000000800b47c        0x0
-                0x000000000800b47c                __exidx_start = .
+.ARM            0x000000000800b484        0x0
+                0x000000000800b484                __exidx_start = .
  *(.ARM.exidx*)
-                0x000000000800b47c                __exidx_end = .
+                0x000000000800b484                __exidx_end = .
 
-.preinit_array  0x000000000800b47c        0x0
-                0x000000000800b47c                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000000800b484        0x0
+                0x000000000800b484                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000000000800b47c                PROVIDE (__preinit_array_end = .)
+                0x000000000800b484                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000000000800b47c        0x4
-                0x000000000800b47c                PROVIDE (__init_array_start = .)
+.init_array     0x000000000800b484        0x4
+                0x000000000800b484                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000000000800b47c        0x4 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x000000000800b480                PROVIDE (__init_array_end = .)
+ .init_array    0x000000000800b484        0x4 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x000000000800b488                PROVIDE (__init_array_end = .)
 
-.fini_array     0x000000000800b480        0x4
+.fini_array     0x000000000800b488        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000000000800b480        0x4 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x000000000800b488        0x4 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000000000800b484                _sidata = LOADADDR (.data)
+                0x000000000800b48c                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000008       0x30 load address 0x000000000800b484
+.data           0x0000000020000008       0x30 load address 0x000000000800b48c
                 0x0000000020000008                . = ALIGN (0x4)
                 0x0000000020000008                _sdata = .
  *(.data)
@@ -12216,11 +12230,11 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
                 0x0000000020000038                . = ALIGN (0x4)
                 0x0000000020000038                _edata = .
 
-.igot.plt       0x0000000020000038        0x0 load address 0x000000000800b4b4
+.igot.plt       0x0000000020000038        0x0 load address 0x000000000800b4bc
  .igot.plt      0x0000000020000038        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
 BLE_DRIVER_CONTEXT
-                0x0000000020000038       0x41 load address 0x000000000800b4b4
+                0x0000000020000038       0x41 load address 0x000000000800b4bc
  BLE_DRIVER_CONTEXT
                 0x0000000020000038        0x4 ./Middlewares/STM32_WPAN/dis.o
  BLE_DRIVER_CONTEXT
@@ -12235,13 +12249,13 @@ BLE_DRIVER_CONTEXT
                 0x0000000020000078                SVCCTL_CltHandler
 
 SYSTEM_DRIVER_CONTEXT
-                0x000000002000007c       0x11 load address 0x000000000800b4f5
+                0x000000002000007c       0x11 load address 0x000000000800b4fd
  SYSTEM_DRIVER_CONTEXT
                 0x000000002000007c       0x11 ./Middlewares/STM32_WPAN/shci_tl.o
                 0x000000002000008c                SHCI_TL_UserEventFlow
                 0x0000000020000090                . = ALIGN (0x4)
 
-.bss            0x0000000020000090      0x654 load address 0x000000000800b506
+.bss            0x0000000020000090      0x654 load address 0x000000000800b50e
                 0x0000000020000090                _sbss = .
                 0x0000000020000090                __bss_start__ = _sbss
  *(.bss)
@@ -12357,7 +12371,7 @@ SYSTEM_DRIVER_CONTEXT
                 0x00000000200006e4                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x00000000200006e4     0x1404 load address 0x000000000800b506
+                0x00000000200006e4     0x1404 load address 0x000000000800b50e
                 0x00000000200006e8                . = ALIGN (0x8)
  *fill*         0x00000000200006e4        0x4 
                 [!provide]                        PROVIDE (end = .)
@@ -12776,7 +12790,7 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_ranges  0x0000000000002860       0x38 ./Utilities/stm32_lpm.o
  .debug_ranges  0x0000000000002898       0x98 ./Utilities/stm32_seq.o
 
-.debug_macro    0x0000000000000000    0x2f6bf
+.debug_macro    0x0000000000000000    0x2f725
  .debug_macro   0x0000000000000000      0x55d ./Application/User/Core/app_debug.o
  .debug_macro   0x000000000000055d      0xa7e ./Application/User/Core/app_debug.o
  .debug_macro   0x0000000000000fdb       0x22 ./Application/User/Core/app_debug.o
@@ -12884,235 +12898,235 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x0000000000022afb      0x3f9 ./Application/User/Core/app_debug.o
  .debug_macro   0x0000000000022ef4       0xac ./Application/User/Core/app_debug.o
  .debug_macro   0x0000000000022fa0       0x1c ./Application/User/Core/app_debug.o
- .debug_macro   0x0000000000022fbc      0x744 ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000023700       0xb2 ./Application/User/Core/app_entry.o
- .debug_macro   0x00000000000237b2       0xe2 ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000023894      0x42d ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000023cc1      0x774 ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000024435      0x15c ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000024591       0x22 ./Application/User/Core/app_entry.o
- .debug_macro   0x00000000000245b3       0x2e ./Application/User/Core/app_entry.o
- .debug_macro   0x00000000000245e1       0x1c ./Application/User/Core/app_entry.o
- .debug_macro   0x00000000000245fd       0x6a ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000024667       0x10 ./Application/User/Core/app_entry.o
+ .debug_macro   0x0000000000022fbc      0x754 ./Application/User/Core/app_entry.o
+ .debug_macro   0x0000000000023710       0xb2 ./Application/User/Core/app_entry.o
+ .debug_macro   0x00000000000237c2       0xe2 ./Application/User/Core/app_entry.o
+ .debug_macro   0x00000000000238a4      0x42d ./Application/User/Core/app_entry.o
+ .debug_macro   0x0000000000023cd1      0x774 ./Application/User/Core/app_entry.o
+ .debug_macro   0x0000000000024445      0x15c ./Application/User/Core/app_entry.o
+ .debug_macro   0x00000000000245a1       0x22 ./Application/User/Core/app_entry.o
+ .debug_macro   0x00000000000245c3       0x2e ./Application/User/Core/app_entry.o
+ .debug_macro   0x00000000000245f1       0x1c ./Application/User/Core/app_entry.o
+ .debug_macro   0x000000000002460d       0x6a ./Application/User/Core/app_entry.o
  .debug_macro   0x0000000000024677       0x10 ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000024687       0x67 ./Application/User/Core/app_entry.o
- .debug_macro   0x00000000000246ee       0x28 ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000024716       0x10 ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000024726      0x5c6 ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000024cec       0x22 ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000024d0e       0xb2 ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000024dc0      0x134 ./Application/User/Core/app_entry.o
- .debug_macro   0x0000000000024ef4      0x4ea ./Application/User/Core/hw_timerserver.o
- .debug_macro   0x00000000000253de      0x4f0 ./Application/User/Core/hw_uart.o
- .debug_macro   0x00000000000258ce      0x4ee ./Application/User/Core/main.o
- .debug_macro   0x0000000000025dbc       0x5c ./Application/User/Core/main.o
- .debug_macro   0x0000000000025e18      0x313 ./Application/User/Core/stm32_lpm_if.o
- .debug_macro   0x000000000002612b      0x4ee ./Application/User/Core/stm32wbxx_hal_msp.o
- .debug_macro   0x0000000000026619      0x4f8 ./Application/User/Core/stm32wbxx_it.o
- .debug_macro   0x0000000000026b11      0x757 ./Application/User/STM32_WPAN/App/app_ble.o
- .debug_macro   0x0000000000027268       0x3a ./Application/User/STM32_WPAN/App/app_ble.o
- .debug_macro   0x00000000000272a2      0x69d ./Application/User/STM32_WPAN/App/dis_app.o
- .debug_macro   0x000000000002793f      0x6ae ./Application/User/STM32_WPAN/App/hrs_app.o
- .debug_macro   0x0000000000027fed      0x507 ./Application/User/STM32_WPAN/Target/hw_ipcc.o
- .debug_macro   0x00000000000284f4      0x2ae ./Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o
- .debug_macro   0x00000000000287a2      0x275 ./Drivers/CMSIS/system_stm32wbxx.o
- .debug_macro   0x0000000000028a17      0x28c ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal.o
- .debug_macro   0x0000000000028ca3      0x285 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_adc.o
- .debug_macro   0x0000000000028f28      0x268 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_cortex.o
- .debug_macro   0x0000000000029190      0x268 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_dma.o
- .debug_macro   0x00000000000293f8      0x274 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_exti.o
- .debug_macro   0x000000000002966c      0x26f ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_gpio.o
- .debug_macro   0x00000000000298db      0x268 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_hsem.o
- .debug_macro   0x0000000000029b43      0x27a ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_ipcc.o
- .debug_macro   0x0000000000029dbd      0x2da ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_pwr.o
- .debug_macro   0x000000000002a097      0x27a ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_pwr_ex.o
- .debug_macro   0x000000000002a311      0x2da ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc.o
- .debug_macro   0x000000000002a5eb      0x2bd ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc_ex.o
- .debug_macro   0x000000000002a8a8      0x26e ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rng.o
- .debug_macro   0x000000000002ab16      0x269 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rtc.o
- .debug_macro   0x000000000002ad7f      0x26e ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rtc_ex.o
- .debug_macro   0x000000000002afed      0x293 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart.o
- .debug_macro   0x000000000002b280      0x274 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart_ex.o
- .debug_macro   0x000000000002b4f4      0x17e ./Middlewares/STM32_WPAN/ble_gap_aci.o
- .debug_macro   0x000000000002b672       0x34 ./Middlewares/STM32_WPAN/ble_gap_aci.o
- .debug_macro   0x000000000002b6a6       0x40 ./Middlewares/STM32_WPAN/ble_gap_aci.o
- .debug_macro   0x000000000002b6e6      0x17e ./Middlewares/STM32_WPAN/ble_gatt_aci.o
- .debug_macro   0x000000000002b864      0x17e ./Middlewares/STM32_WPAN/ble_hal_aci.o
- .debug_macro   0x000000000002b9e2      0x17e ./Middlewares/STM32_WPAN/ble_hci_le.o
- .debug_macro   0x000000000002bb60      0x6ad ./Middlewares/STM32_WPAN/dis.o
- .debug_macro   0x000000000002c20d       0xa6 ./Middlewares/STM32_WPAN/dis.o
- .debug_macro   0x000000000002c2b3       0x82 ./Middlewares/STM32_WPAN/dis.o
- .debug_macro   0x000000000002c335      0x565 ./Middlewares/STM32_WPAN/hci_tl.o
- .debug_macro   0x000000000002c89a      0x26c ./Middlewares/STM32_WPAN/hci_tl_if.o
- .debug_macro   0x000000000002cb06       0xe9 ./Middlewares/STM32_WPAN/hci_tl_if.o
- .debug_macro   0x000000000002cbef      0x6cb ./Middlewares/STM32_WPAN/hrs.o
- .debug_macro   0x000000000002d2ba      0x10f ./Middlewares/STM32_WPAN/osal.o
- .debug_macro   0x000000000002d3c9      0x4e8 ./Middlewares/STM32_WPAN/otp.o
- .debug_macro   0x000000000002d8b1      0x471 ./Middlewares/STM32_WPAN/shci.o
- .debug_macro   0x000000000002dd22      0x278 ./Middlewares/STM32_WPAN/shci_tl.o
- .debug_macro   0x000000000002df9a      0x272 ./Middlewares/STM32_WPAN/shci_tl_if.o
- .debug_macro   0x000000000002e20c      0x4f6 ./Middlewares/STM32_WPAN/stm_list.o
- .debug_macro   0x000000000002e702      0x6bf ./Middlewares/STM32_WPAN/svc_ctl.o
- .debug_macro   0x000000000002edc1      0x515 ./Middlewares/STM32_WPAN/tl_mbox.o
- .debug_macro   0x000000000002f2d6       0x88 ./Middlewares/STM32_WPAN/tl_mbox.o
- .debug_macro   0x000000000002f35e      0x174 ./Utilities/stm32_lpm.o
- .debug_macro   0x000000000002f4d2       0x4c ./Utilities/stm32_lpm.o
- .debug_macro   0x000000000002f51e      0x185 ./Utilities/stm32_seq.o
- .debug_macro   0x000000000002f6a3       0x1c ./Utilities/stm32_seq.o
+ .debug_macro   0x0000000000024687       0x10 ./Application/User/Core/app_entry.o
+ .debug_macro   0x0000000000024697       0x67 ./Application/User/Core/app_entry.o
+ .debug_macro   0x00000000000246fe       0x28 ./Application/User/Core/app_entry.o
+ .debug_macro   0x0000000000024726       0x10 ./Application/User/Core/app_entry.o
+ .debug_macro   0x0000000000024736      0x5c6 ./Application/User/Core/app_entry.o
+ .debug_macro   0x0000000000024cfc       0x22 ./Application/User/Core/app_entry.o
+ .debug_macro   0x0000000000024d1e       0xb2 ./Application/User/Core/app_entry.o
+ .debug_macro   0x0000000000024dd0      0x134 ./Application/User/Core/app_entry.o
+ .debug_macro   0x0000000000024f04      0x4ea ./Application/User/Core/hw_timerserver.o
+ .debug_macro   0x00000000000253ee      0x4f0 ./Application/User/Core/hw_uart.o
+ .debug_macro   0x00000000000258de      0x4ee ./Application/User/Core/main.o
+ .debug_macro   0x0000000000025dcc       0x5c ./Application/User/Core/main.o
+ .debug_macro   0x0000000000025e28      0x313 ./Application/User/Core/stm32_lpm_if.o
+ .debug_macro   0x000000000002613b      0x4ee ./Application/User/Core/stm32wbxx_hal_msp.o
+ .debug_macro   0x0000000000026629      0x4f8 ./Application/User/Core/stm32wbxx_it.o
+ .debug_macro   0x0000000000026b21      0x767 ./Application/User/STM32_WPAN/App/app_ble.o
+ .debug_macro   0x0000000000027288       0x3a ./Application/User/STM32_WPAN/App/app_ble.o
+ .debug_macro   0x00000000000272c2      0x6ab ./Application/User/STM32_WPAN/App/dis_app.o
+ .debug_macro   0x000000000002796d      0x6bc ./Application/User/STM32_WPAN/App/hrs_app.o
+ .debug_macro   0x0000000000028029      0x507 ./Application/User/STM32_WPAN/Target/hw_ipcc.o
+ .debug_macro   0x0000000000028530      0x2ae ./Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o
+ .debug_macro   0x00000000000287de      0x275 ./Drivers/CMSIS/system_stm32wbxx.o
+ .debug_macro   0x0000000000028a53      0x28c ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal.o
+ .debug_macro   0x0000000000028cdf      0x285 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_adc.o
+ .debug_macro   0x0000000000028f64      0x268 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_cortex.o
+ .debug_macro   0x00000000000291cc      0x268 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_dma.o
+ .debug_macro   0x0000000000029434      0x274 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_exti.o
+ .debug_macro   0x00000000000296a8      0x26f ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_gpio.o
+ .debug_macro   0x0000000000029917      0x268 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_hsem.o
+ .debug_macro   0x0000000000029b7f      0x27a ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_ipcc.o
+ .debug_macro   0x0000000000029df9      0x2da ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_pwr.o
+ .debug_macro   0x000000000002a0d3      0x27a ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_pwr_ex.o
+ .debug_macro   0x000000000002a34d      0x2da ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc.o
+ .debug_macro   0x000000000002a627      0x2bd ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc_ex.o
+ .debug_macro   0x000000000002a8e4      0x26e ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rng.o
+ .debug_macro   0x000000000002ab52      0x269 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rtc.o
+ .debug_macro   0x000000000002adbb      0x26e ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rtc_ex.o
+ .debug_macro   0x000000000002b029      0x293 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart.o
+ .debug_macro   0x000000000002b2bc      0x274 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart_ex.o
+ .debug_macro   0x000000000002b530      0x17e ./Middlewares/STM32_WPAN/ble_gap_aci.o
+ .debug_macro   0x000000000002b6ae       0x34 ./Middlewares/STM32_WPAN/ble_gap_aci.o
+ .debug_macro   0x000000000002b6e2       0x40 ./Middlewares/STM32_WPAN/ble_gap_aci.o
+ .debug_macro   0x000000000002b722      0x17e ./Middlewares/STM32_WPAN/ble_gatt_aci.o
+ .debug_macro   0x000000000002b8a0      0x17e ./Middlewares/STM32_WPAN/ble_hal_aci.o
+ .debug_macro   0x000000000002ba1e      0x17e ./Middlewares/STM32_WPAN/ble_hci_le.o
+ .debug_macro   0x000000000002bb9c      0x6bb ./Middlewares/STM32_WPAN/dis.o
+ .debug_macro   0x000000000002c257       0xa6 ./Middlewares/STM32_WPAN/dis.o
+ .debug_macro   0x000000000002c2fd       0x82 ./Middlewares/STM32_WPAN/dis.o
+ .debug_macro   0x000000000002c37f      0x565 ./Middlewares/STM32_WPAN/hci_tl.o
+ .debug_macro   0x000000000002c8e4      0x26c ./Middlewares/STM32_WPAN/hci_tl_if.o
+ .debug_macro   0x000000000002cb50       0xe9 ./Middlewares/STM32_WPAN/hci_tl_if.o
+ .debug_macro   0x000000000002cc39      0x6d9 ./Middlewares/STM32_WPAN/hrs.o
+ .debug_macro   0x000000000002d312      0x10f ./Middlewares/STM32_WPAN/osal.o
+ .debug_macro   0x000000000002d421      0x4e8 ./Middlewares/STM32_WPAN/otp.o
+ .debug_macro   0x000000000002d909      0x471 ./Middlewares/STM32_WPAN/shci.o
+ .debug_macro   0x000000000002dd7a      0x278 ./Middlewares/STM32_WPAN/shci_tl.o
+ .debug_macro   0x000000000002dff2      0x272 ./Middlewares/STM32_WPAN/shci_tl_if.o
+ .debug_macro   0x000000000002e264      0x4f6 ./Middlewares/STM32_WPAN/stm_list.o
+ .debug_macro   0x000000000002e75a      0x6cd ./Middlewares/STM32_WPAN/svc_ctl.o
+ .debug_macro   0x000000000002ee27      0x515 ./Middlewares/STM32_WPAN/tl_mbox.o
+ .debug_macro   0x000000000002f33c       0x88 ./Middlewares/STM32_WPAN/tl_mbox.o
+ .debug_macro   0x000000000002f3c4      0x174 ./Utilities/stm32_lpm.o
+ .debug_macro   0x000000000002f538       0x4c ./Utilities/stm32_lpm.o
+ .debug_macro   0x000000000002f584      0x185 ./Utilities/stm32_seq.o
+ .debug_macro   0x000000000002f709       0x1c ./Utilities/stm32_seq.o
 
-.debug_line     0x0000000000000000    0x3a1f9
+.debug_line     0x0000000000000000    0x3a515
  .debug_line    0x0000000000000000     0x1281 ./Application/User/Core/app_debug.o
- .debug_line    0x0000000000001281     0x1bcb ./Application/User/Core/app_entry.o
- .debug_line    0x0000000000002e4c     0x157e ./Application/User/Core/hw_timerserver.o
- .debug_line    0x00000000000043ca     0x1021 ./Application/User/Core/hw_uart.o
- .debug_line    0x00000000000053eb     0x11d8 ./Application/User/Core/main.o
- .debug_line    0x00000000000065c3     0x107a ./Application/User/Core/stm32_lpm_if.o
- .debug_line    0x000000000000763d     0x129a ./Application/User/Core/stm32wbxx_hal_msp.o
- .debug_line    0x00000000000088d7     0x109f ./Application/User/Core/stm32wbxx_it.o
- .debug_line    0x0000000000009976     0x1b29 ./Application/User/STM32_WPAN/App/app_ble.o
- .debug_line    0x000000000000b49f     0x1352 ./Application/User/STM32_WPAN/App/dis_app.o
- .debug_line    0x000000000000c7f1     0x14c2 ./Application/User/STM32_WPAN/App/hrs_app.o
- .debug_line    0x000000000000dcb3     0x1449 ./Application/User/STM32_WPAN/Target/hw_ipcc.o
- .debug_line    0x000000000000f0fc       0x9d ./Application/User/Startup/startup_stm32wb55rgvx.o
- .debug_line    0x000000000000f199      0xce8 ./Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o
- .debug_line    0x000000000000fe81      0xa9f ./Drivers/CMSIS/system_stm32wbxx.o
- .debug_line    0x0000000000010920     0x1231 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal.o
- .debug_line    0x0000000000011b51     0x1f0e ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_adc.o
- .debug_line    0x0000000000013a5f      0xefb ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_cortex.o
- .debug_line    0x000000000001495a     0x110b ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_dma.o
- .debug_line    0x0000000000015a65      0xd1b ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_exti.o
- .debug_line    0x0000000000016780      0xddc ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_gpio.o
- .debug_line    0x000000000001755c      0xb0f ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_hsem.o
- .debug_line    0x000000000001806b      0xd34 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_ipcc.o
- .debug_line    0x0000000000018d9f      0xc56 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_pwr.o
- .debug_line    0x00000000000199f5     0x139a ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_pwr_ex.o
- .debug_line    0x000000000001ad8f     0x1a4c ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc.o
- .debug_line    0x000000000001c7db     0x1ed3 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc_ex.o
- .debug_line    0x000000000001e6ae      0xbb8 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rng.o
- .debug_line    0x000000000001f266     0x1443 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rtc.o
- .debug_line    0x00000000000206a9     0x17f3 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rtc_ex.o
- .debug_line    0x0000000000021e9c     0x3e41 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart.o
- .debug_line    0x0000000000025cdd      0xff7 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart_ex.o
- .debug_line    0x0000000000026cd4     0x1954 ./Middlewares/STM32_WPAN/ble_gap_aci.o
- .debug_line    0x0000000000028628     0x1b8d ./Middlewares/STM32_WPAN/ble_gatt_aci.o
- .debug_line    0x000000000002a1b5      0xc35 ./Middlewares/STM32_WPAN/ble_hal_aci.o
- .debug_line    0x000000000002adea     0x1f31 ./Middlewares/STM32_WPAN/ble_hci_le.o
- .debug_line    0x000000000002cd1b     0x155a ./Middlewares/STM32_WPAN/dis.o
- .debug_line    0x000000000002e275     0x1450 ./Middlewares/STM32_WPAN/hci_tl.o
- .debug_line    0x000000000002f6c5      0x7ac ./Middlewares/STM32_WPAN/hci_tl_if.o
- .debug_line    0x000000000002fe71     0x1754 ./Middlewares/STM32_WPAN/hrs.o
- .debug_line    0x00000000000315c5      0x58d ./Middlewares/STM32_WPAN/osal.o
- .debug_line    0x0000000000031b52      0xf27 ./Middlewares/STM32_WPAN/otp.o
- .debug_line    0x0000000000032a79     0x12db ./Middlewares/STM32_WPAN/shci.o
- .debug_line    0x0000000000033d54      0x9f8 ./Middlewares/STM32_WPAN/shci_tl.o
- .debug_line    0x000000000003474c      0x7ae ./Middlewares/STM32_WPAN/shci_tl_if.o
- .debug_line    0x0000000000034efa     0x1330 ./Middlewares/STM32_WPAN/stm_list.o
- .debug_line    0x000000000003622a     0x17b1 ./Middlewares/STM32_WPAN/svc_ctl.o
- .debug_line    0x00000000000379db     0x1407 ./Middlewares/STM32_WPAN/tl_mbox.o
- .debug_line    0x0000000000038de2      0x806 ./Utilities/stm32_lpm.o
- .debug_line    0x00000000000395e8      0xc11 ./Utilities/stm32_seq.o
+ .debug_line    0x0000000000001281     0x1c3f ./Application/User/Core/app_entry.o
+ .debug_line    0x0000000000002ec0     0x157e ./Application/User/Core/hw_timerserver.o
+ .debug_line    0x000000000000443e     0x1021 ./Application/User/Core/hw_uart.o
+ .debug_line    0x000000000000545f     0x11d8 ./Application/User/Core/main.o
+ .debug_line    0x0000000000006637     0x107a ./Application/User/Core/stm32_lpm_if.o
+ .debug_line    0x00000000000076b1     0x129a ./Application/User/Core/stm32wbxx_hal_msp.o
+ .debug_line    0x000000000000894b     0x109f ./Application/User/Core/stm32wbxx_it.o
+ .debug_line    0x00000000000099ea     0x1b9d ./Application/User/STM32_WPAN/App/app_ble.o
+ .debug_line    0x000000000000b587     0x13c6 ./Application/User/STM32_WPAN/App/dis_app.o
+ .debug_line    0x000000000000c94d     0x1536 ./Application/User/STM32_WPAN/App/hrs_app.o
+ .debug_line    0x000000000000de83     0x1449 ./Application/User/STM32_WPAN/Target/hw_ipcc.o
+ .debug_line    0x000000000000f2cc       0x9d ./Application/User/Startup/startup_stm32wb55rgvx.o
+ .debug_line    0x000000000000f369      0xce8 ./Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o
+ .debug_line    0x0000000000010051      0xa9f ./Drivers/CMSIS/system_stm32wbxx.o
+ .debug_line    0x0000000000010af0     0x1231 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal.o
+ .debug_line    0x0000000000011d21     0x1f0e ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_adc.o
+ .debug_line    0x0000000000013c2f      0xefb ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_cortex.o
+ .debug_line    0x0000000000014b2a     0x110b ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_dma.o
+ .debug_line    0x0000000000015c35      0xd1b ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_exti.o
+ .debug_line    0x0000000000016950      0xddc ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_gpio.o
+ .debug_line    0x000000000001772c      0xb0f ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_hsem.o
+ .debug_line    0x000000000001823b      0xd34 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_ipcc.o
+ .debug_line    0x0000000000018f6f      0xc56 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_pwr.o
+ .debug_line    0x0000000000019bc5     0x139a ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_pwr_ex.o
+ .debug_line    0x000000000001af5f     0x1a4c ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc.o
+ .debug_line    0x000000000001c9ab     0x1ed3 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc_ex.o
+ .debug_line    0x000000000001e87e      0xbb8 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rng.o
+ .debug_line    0x000000000001f436     0x1443 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rtc.o
+ .debug_line    0x0000000000020879     0x17f3 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rtc_ex.o
+ .debug_line    0x000000000002206c     0x3e41 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart.o
+ .debug_line    0x0000000000025ead      0xff7 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart_ex.o
+ .debug_line    0x0000000000026ea4     0x1954 ./Middlewares/STM32_WPAN/ble_gap_aci.o
+ .debug_line    0x00000000000287f8     0x1b8d ./Middlewares/STM32_WPAN/ble_gatt_aci.o
+ .debug_line    0x000000000002a385      0xc35 ./Middlewares/STM32_WPAN/ble_hal_aci.o
+ .debug_line    0x000000000002afba     0x1f31 ./Middlewares/STM32_WPAN/ble_hci_le.o
+ .debug_line    0x000000000002ceeb     0x15ce ./Middlewares/STM32_WPAN/dis.o
+ .debug_line    0x000000000002e4b9     0x1440 ./Middlewares/STM32_WPAN/hci_tl.o
+ .debug_line    0x000000000002f8f9      0x7ac ./Middlewares/STM32_WPAN/hci_tl_if.o
+ .debug_line    0x00000000000300a5     0x17c8 ./Middlewares/STM32_WPAN/hrs.o
+ .debug_line    0x000000000003186d      0x58d ./Middlewares/STM32_WPAN/osal.o
+ .debug_line    0x0000000000031dfa      0xf27 ./Middlewares/STM32_WPAN/otp.o
+ .debug_line    0x0000000000032d21     0x12db ./Middlewares/STM32_WPAN/shci.o
+ .debug_line    0x0000000000033ffc      0x9f8 ./Middlewares/STM32_WPAN/shci_tl.o
+ .debug_line    0x00000000000349f4      0x7ae ./Middlewares/STM32_WPAN/shci_tl_if.o
+ .debug_line    0x00000000000351a2     0x1330 ./Middlewares/STM32_WPAN/stm_list.o
+ .debug_line    0x00000000000364d2     0x1825 ./Middlewares/STM32_WPAN/svc_ctl.o
+ .debug_line    0x0000000000037cf7     0x1407 ./Middlewares/STM32_WPAN/tl_mbox.o
+ .debug_line    0x00000000000390fe      0x806 ./Utilities/stm32_lpm.o
+ .debug_line    0x0000000000039904      0xc11 ./Utilities/stm32_seq.o
 
-.debug_str      0x0000000000000000   0x107787
+.debug_str      0x0000000000000000   0x107790
  .debug_str     0x0000000000000000    0xeeabd ./Application/User/Core/app_debug.o
                                       0xefd70 (size before relaxing)
- .debug_str     0x00000000000eeabd     0x8a20 ./Application/User/Core/app_entry.o
-                                      0xf8432 (size before relaxing)
- .debug_str     0x00000000000f74dd      0xa7a ./Application/User/Core/hw_timerserver.o
+ .debug_str     0x00000000000eeabd     0x8a29 ./Application/User/Core/app_entry.o
+                                      0xf843b (size before relaxing)
+ .debug_str     0x00000000000f74e6      0xa7a ./Application/User/Core/hw_timerserver.o
                                       0xedb7a (size before relaxing)
- .debug_str     0x00000000000f7f57      0x8ed ./Application/User/Core/hw_uart.o
+ .debug_str     0x00000000000f7f60      0x8ed ./Application/User/Core/hw_uart.o
                                       0xed765 (size before relaxing)
- .debug_str     0x00000000000f8844      0x9c7 ./Application/User/Core/main.o
+ .debug_str     0x00000000000f884d      0x9c7 ./Application/User/Core/main.o
                                       0xee65a (size before relaxing)
- .debug_str     0x00000000000f920b      0x2ce ./Application/User/Core/stm32_lpm_if.o
+ .debug_str     0x00000000000f9214      0x2ce ./Application/User/Core/stm32_lpm_if.o
                                       0xe9115 (size before relaxing)
- .debug_str     0x00000000000f94d9      0x2ed ./Application/User/Core/stm32wbxx_hal_msp.o
+ .debug_str     0x00000000000f94e2      0x2ed ./Application/User/Core/stm32wbxx_hal_msp.o
                                       0xee440 (size before relaxing)
- .debug_str     0x00000000000f97c6      0x1e3 ./Application/User/Core/stm32wbxx_it.o
+ .debug_str     0x00000000000f97cf      0x1e3 ./Application/User/Core/stm32wbxx_it.o
                                       0xed4c8 (size before relaxing)
- .debug_str     0x00000000000f99a9      0xdf1 ./Application/User/STM32_WPAN/App/app_ble.o
-                                      0xf81b0 (size before relaxing)
- .debug_str     0x00000000000fa79a       0x94 ./Application/User/STM32_WPAN/App/dis_app.o
-                                      0xf47dc (size before relaxing)
- .debug_str     0x00000000000fa82e      0x438 ./Application/User/STM32_WPAN/App/hrs_app.o
-                                      0xf4e96 (size before relaxing)
- .debug_str     0x00000000000fac66      0x47e ./Application/User/STM32_WPAN/Target/hw_ipcc.o
+ .debug_str     0x00000000000f99b2      0xdf1 ./Application/User/STM32_WPAN/App/app_ble.o
+                                      0xf81b9 (size before relaxing)
+ .debug_str     0x00000000000fa7a3       0x94 ./Application/User/STM32_WPAN/App/dis_app.o
+                                      0xf47e5 (size before relaxing)
+ .debug_str     0x00000000000fa837      0x438 ./Application/User/STM32_WPAN/App/hrs_app.o
+                                      0xf4e9f (size before relaxing)
+ .debug_str     0x00000000000fac6f      0x47e ./Application/User/STM32_WPAN/Target/hw_ipcc.o
                                       0xedff2 (size before relaxing)
- .debug_str     0x00000000000fb0e4       0x42 ./Application/User/Startup/startup_stm32wb55rgvx.o
+ .debug_str     0x00000000000fb0ed       0x42 ./Application/User/Startup/startup_stm32wb55rgvx.o
                                          0xa1 (size before relaxing)
- .debug_str     0x00000000000fb126      0x444 ./Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o
+ .debug_str     0x00000000000fb12f      0x444 ./Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o
                                       0xe470f (size before relaxing)
- .debug_str     0x00000000000fb56a      0x130 ./Drivers/CMSIS/system_stm32wbxx.o
+ .debug_str     0x00000000000fb573      0x130 ./Drivers/CMSIS/system_stm32wbxx.o
                                       0xe27ba (size before relaxing)
- .debug_str     0x00000000000fb69a      0x887 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal.o
+ .debug_str     0x00000000000fb6a3      0x887 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal.o
                                       0xe361d (size before relaxing)
- .debug_str     0x00000000000fbf21      0x9f5 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_adc.o
+ .debug_str     0x00000000000fbf2a      0x9f5 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_adc.o
                                       0xe356b (size before relaxing)
- .debug_str     0x00000000000fc916      0x2cb ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_cortex.o
+ .debug_str     0x00000000000fc91f      0x2cb ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_cortex.o
                                       0xe2d9d (size before relaxing)
- .debug_str     0x00000000000fcbe1      0x24f ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_dma.o
+ .debug_str     0x00000000000fcbea      0x24f ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_dma.o
                                       0xe29ff (size before relaxing)
- .debug_str     0x00000000000fce30      0x1a6 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_exti.o
+ .debug_str     0x00000000000fce39      0x1a6 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_exti.o
                                       0xe2736 (size before relaxing)
- .debug_str     0x00000000000fcfd6       0xaa ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_gpio.o
+ .debug_str     0x00000000000fcfdf       0xaa ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_gpio.o
                                       0xe2711 (size before relaxing)
- .debug_str     0x00000000000fd080      0x13f ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_hsem.o
+ .debug_str     0x00000000000fd089      0x13f ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_hsem.o
                                       0xe25ed (size before relaxing)
- .debug_str     0x00000000000fd1bf      0x281 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_ipcc.o
+ .debug_str     0x00000000000fd1c8      0x281 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_ipcc.o
                                       0xe2846 (size before relaxing)
- .debug_str     0x00000000000fd440      0x56c ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_pwr.o
+ .debug_str     0x00000000000fd449      0x56c ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_pwr.o
                                       0xe2ba7 (size before relaxing)
- .debug_str     0x00000000000fd9ac      0x7be ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_pwr_ex.o
+ .debug_str     0x00000000000fd9b5      0x7be ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_pwr_ex.o
                                       0xe30a8 (size before relaxing)
- .debug_str     0x00000000000fe16a      0xab5 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc.o
+ .debug_str     0x00000000000fe173      0xab5 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc.o
                                       0xe3595 (size before relaxing)
- .debug_str     0x00000000000fec1f      0xc50 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc_ex.o
+ .debug_str     0x00000000000fec28      0xc50 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rcc_ex.o
                                       0xe39be (size before relaxing)
- .debug_str     0x00000000000ff86f      0x131 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rng.o
+ .debug_str     0x00000000000ff878      0x131 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rng.o
                                       0xe26da (size before relaxing)
- .debug_str     0x00000000000ff9a0      0x31d ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rtc.o
+ .debug_str     0x00000000000ff9a9      0x31d ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rtc.o
                                       0xe2ac4 (size before relaxing)
- .debug_str     0x00000000000ffcbd      0x766 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rtc_ex.o
+ .debug_str     0x00000000000ffcc6      0x766 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_rtc_ex.o
                                       0xe2fc9 (size before relaxing)
- .debug_str     0x0000000000100423      0x916 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart.o
+ .debug_str     0x000000000010042c      0x916 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart.o
                                       0xe3717 (size before relaxing)
- .debug_str     0x0000000000100d39      0x267 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart_ex.o
+ .debug_str     0x0000000000100d42      0x267 ./Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart_ex.o
                                       0xe2e03 (size before relaxing)
- .debug_str     0x0000000000100fa0     0x131e ./Middlewares/STM32_WPAN/ble_gap_aci.o
+ .debug_str     0x0000000000100fa9     0x131e ./Middlewares/STM32_WPAN/ble_gap_aci.o
                                        0xc1ff (size before relaxing)
- .debug_str     0x00000000001022be      0xeb8 ./Middlewares/STM32_WPAN/ble_gatt_aci.o
+ .debug_str     0x00000000001022c7      0xeb8 ./Middlewares/STM32_WPAN/ble_gatt_aci.o
                                        0xbc77 (size before relaxing)
- .debug_str     0x0000000000103176      0x4e3 ./Middlewares/STM32_WPAN/ble_hal_aci.o
+ .debug_str     0x000000000010317f      0x4e3 ./Middlewares/STM32_WPAN/ble_hal_aci.o
                                        0xb23f (size before relaxing)
- .debug_str     0x0000000000103659     0x1859 ./Middlewares/STM32_WPAN/ble_hci_le.o
+ .debug_str     0x0000000000103662     0x1859 ./Middlewares/STM32_WPAN/ble_hci_le.o
                                        0xcab0 (size before relaxing)
- .debug_str     0x0000000000104eb2       0xb2 ./Middlewares/STM32_WPAN/dis.o
-                                      0xf4b85 (size before relaxing)
- .debug_str     0x0000000000104f64      0x220 ./Middlewares/STM32_WPAN/hci_tl.o
+ .debug_str     0x0000000000104ebb       0xb2 ./Middlewares/STM32_WPAN/dis.o
+                                      0xf4b8e (size before relaxing)
+ .debug_str     0x0000000000104f6d      0x220 ./Middlewares/STM32_WPAN/hci_tl.o
                                       0xf1d4c (size before relaxing)
- .debug_str     0x0000000000105184       0x46 ./Middlewares/STM32_WPAN/hci_tl_if.o
+ .debug_str     0x000000000010518d       0x46 ./Middlewares/STM32_WPAN/hci_tl_if.o
                                        0x9029 (size before relaxing)
- .debug_str     0x00000000001051ca      0x340 ./Middlewares/STM32_WPAN/hrs.o
-                                      0xf51c4 (size before relaxing)
- .debug_str     0x000000000010550a       0x39 ./Middlewares/STM32_WPAN/osal.o
+ .debug_str     0x00000000001051d3      0x340 ./Middlewares/STM32_WPAN/hrs.o
+                                      0xf51cd (size before relaxing)
+ .debug_str     0x0000000000105513       0x39 ./Middlewares/STM32_WPAN/osal.o
                                        0x62e3 (size before relaxing)
- .debug_str     0x0000000000105543       0x25 ./Middlewares/STM32_WPAN/otp.o
+ .debug_str     0x000000000010554c       0x25 ./Middlewares/STM32_WPAN/otp.o
                                       0xecda8 (size before relaxing)
- .debug_str     0x0000000000105568     0x112a ./Middlewares/STM32_WPAN/shci.o
+ .debug_str     0x0000000000105571     0x112a ./Middlewares/STM32_WPAN/shci.o
                                       0xea5ae (size before relaxing)
- .debug_str     0x0000000000106692      0x1b4 ./Middlewares/STM32_WPAN/shci_tl.o
+ .debug_str     0x000000000010669b      0x1b4 ./Middlewares/STM32_WPAN/shci_tl.o
                                        0x9492 (size before relaxing)
- .debug_str     0x0000000000106846       0x42 ./Middlewares/STM32_WPAN/shci_tl_if.o
+ .debug_str     0x000000000010684f       0x42 ./Middlewares/STM32_WPAN/shci_tl_if.o
                                        0x902d (size before relaxing)
- .debug_str     0x0000000000106888       0xb5 ./Middlewares/STM32_WPAN/stm_list.o
+ .debug_str     0x0000000000106891       0xb5 ./Middlewares/STM32_WPAN/stm_list.o
                                       0xecf9d (size before relaxing)
- .debug_str     0x000000000010693d      0x23a ./Middlewares/STM32_WPAN/svc_ctl.o
-                                      0xf4dcd (size before relaxing)
- .debug_str     0x0000000000106b77      0x503 ./Middlewares/STM32_WPAN/tl_mbox.o
+ .debug_str     0x0000000000106946      0x23a ./Middlewares/STM32_WPAN/svc_ctl.o
+                                      0xf4dd6 (size before relaxing)
+ .debug_str     0x0000000000106b80      0x503 ./Middlewares/STM32_WPAN/tl_mbox.o
                                       0xee349 (size before relaxing)
- .debug_str     0x000000000010707a      0x41b ./Utilities/stm32_lpm.o
+ .debug_str     0x0000000000107083      0x41b ./Utilities/stm32_lpm.o
                                        0x7ba7 (size before relaxing)
- .debug_str     0x0000000000107495      0x2f2 ./Utilities/stm32_seq.o
+ .debug_str     0x000000000010749e      0x2f2 ./Utilities/stm32_seq.o
                                        0x7e7a (size before relaxing)
 
 .comment        0x0000000000000000       0x50

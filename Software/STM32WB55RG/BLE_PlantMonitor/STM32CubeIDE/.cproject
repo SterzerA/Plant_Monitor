@@ -44,7 +44,9 @@
 									<listOptionValue builtIn="false" value="STM32WB55xx"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.1334909375" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Projects\Plant_Monitor\Software\STM32WB55RG\BLE_PlantMonitor\Middlewares\ST\STM32_WPAN\ble&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Projects\Plant_Monitor\Software\STM32WB55RG\BLE_PlantMonitor\Core\Inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Projects\Plant_Monitor\Software\STM32WB55RG\BLE_PlantMonitor\Middlewares\ST\STM32_WPAN\ble\svc\Inc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Projects\Plant_Monitor\Software\STM32WB55RG\BLE_PlantMonitor\STM32_WPAN\App&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Documents\STM32\NUCLEO-WB55RG\en.stm32cubewb-v1-16-0\STM32Cube_FW_WB_V1.16.0\Middlewares\ST\STM32_WPAN\ble\svc\Src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Documents\STM32\NUCLEO-WB55RG\en.stm32cubewb-v1-16-0\STM32Cube_FW_WB_V1.16.0\Drivers\BSP\P-NUCLEO-WB55.Nucleo&quot;"/>
@@ -56,7 +58,6 @@
 									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Documents\STM32\NUCLEO-WB55RG\en.stm32cubewb-v1-16-0\STM32Cube_FW_WB_V1.16.0\Drivers\STM32WBxx_HAL_Driver\Inc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Documents\STM32\NUCLEO-WB55RG\en.stm32cubewb-v1-16-0\STM32Cube_FW_WB_V1.16.0\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Documents\STM32\NUCLEO-WB55RG\en.stm32cubewb-v1-16-0\STM32Cube_FW_WB_V1.16.0\Middlewares\ST\STM32_WPAN&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Documents\STM32\NUCLEO-WB55RG\en.stm32cubewb-v1-16-0\STM32Cube_FW_WB_V1.16.0\Middlewares\ST\STM32_WPAN\ble&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Documents\STM32\NUCLEO-WB55RG\en.stm32cubewb-v1-16-0\STM32Cube_FW_WB_V1.16.0\Middlewares\ST\STM32_WPAN\ble\core&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Documents\STM32\NUCLEO-WB55RG\en.stm32cubewb-v1-16-0\STM32Cube_FW_WB_V1.16.0\Middlewares\ST\STM32_WPAN\ble\core\template&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\alexa\Documents\STM32\NUCLEO-WB55RG\en.stm32cubewb-v1-16-0\STM32Cube_FW_WB_V1.16.0\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread&quot;"/>

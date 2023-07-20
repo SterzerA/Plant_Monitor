@@ -7,21 +7,21 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
   1 .text         0000b098  0800013c  0800013c  0001013c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .rodata       000002a8  0800b1d4  0800b1d4  0001b1d4  2**2
+  2 .rodata       000002b0  0800b1d4  0800b1d4  0001b1d4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  3 .init_array   00000004  0800b47c  0800b47c  0001b47c  2**2
+  3 .init_array   00000004  0800b484  0800b484  0001b484  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  4 .fini_array   00000004  0800b480  0800b480  0001b480  2**2
+  4 .fini_array   00000004  0800b488  0800b488  0001b488  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  5 .data         00000030  20000008  0800b484  00020008  2**2
+  5 .data         00000030  20000008  0800b48c  00020008  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  6 BLE_DRIVER_CONTEXT 00000041  20000038  0800b4b4  00020038  2**2
+  6 BLE_DRIVER_CONTEXT 00000041  20000038  0800b4bc  00020038  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  7 SYSTEM_DRIVER_CONTEXT 00000011  2000007c  0800b4f5  0002007c  2**2
+  7 SYSTEM_DRIVER_CONTEXT 00000011  2000007c  0800b4fd  0002007c  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  8 .bss          00000654  20000090  0800b506  00020090  2**2
+  8 .bss          00000654  20000090  0800b50e  00020090  2**2
                   ALLOC
-  9 ._user_heap_stack 00001404  200006e4  0800b506  000206e4  2**0
+  9 ._user_heap_stack 00001404  200006e4  0800b50e  000206e4  2**0
                   ALLOC
  10 .ARM.attributes 00000030  00000000  00000000  0002008d  2**0
                   CONTENTS, READONLY
@@ -39,15 +39,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_ranges 00002930  00000000  00000000  0005d508  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_macro  0002f6bf  00000000  00000000  0005fe38  2**0
+ 18 .debug_macro  0002f725  00000000  00000000  0005fe38  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_line   0003a1f9  00000000  00000000  0008f4f7  2**0
+ 19 .debug_line   0003a515  00000000  00000000  0008f55d  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_str    00107787  00000000  00000000  000c96f0  2**0
+ 20 .debug_str    00107790  00000000  00000000  000c9a72  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .comment      00000050  00000000  00000000  001d0e77  2**0
+ 21 .comment      00000050  00000000  00000000  001d1202  2**0
                   CONTENTS, READONLY
- 22 .debug_frame  0000b674  00000000  00000000  001d0ec8  2**2
+ 22 .debug_frame  0000b674  00000000  00000000  001d1254  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -496,7 +496,7 @@ static void APPD_SetCPU2GpioConfig( void )
  80003c2:	3720      	adds	r7, #32
  80003c4:	46bd      	mov	sp, r7
  80003c6:	bd80      	pop	{r7, pc}
- 80003c8:	0800b26c 	.word	0x0800b26c
+ 80003c8:	0800b270 	.word	0x0800b270
  80003cc:	48000800 	.word	0x48000800
  80003d0:	48000400 	.word	0x48000400
 
@@ -7308,7 +7308,7 @@ static void Ble_Hci_Gap_Gatt_Init(void)
  80026ea:	2b00      	cmp	r3, #0
  80026ec:	d01f      	beq.n	800272e <Ble_Hci_Gap_Gatt_Init+0xde>
   {
-    const char *name = "PM";
+    const char *name = "HRSTM";
  80026ee:	4b3c      	ldr	r3, [pc, #240]	; (80027e0 <Ble_Hci_Gap_Gatt_Init+0x190>)
  80026f0:	60bb      	str	r3, [r7, #8]
     ret = aci_gap_init(role,
@@ -7473,8 +7473,8 @@ static void Ble_Hci_Gap_Gatt_Init(void)
  80027d0:	46bd      	mov	sp, r7
  80027d2:	bdf0      	pop	{r4, r5, r6, r7, pc}
  80027d4:	20000008 	.word	0x20000008
- 80027d8:	0800b3bc 	.word	0x0800b3bc
- 80027dc:	0800b3cc 	.word	0x0800b3cc
+ 80027d8:	0800b3c0 	.word	0x0800b3c0
+ 80027dc:	0800b3d0 	.word	0x0800b3d0
  80027e0:	0800b238 	.word	0x0800b238
  80027e4:	20000530 	.word	0x20000530
  80027e8:	0001b207 	.word	0x0001b207
@@ -7571,7 +7571,7 @@ static void Adv_Request(APP_BLE_ConnStatus_t NewStatus)
  8002864:	9303      	str	r3, [sp, #12]
  8002866:	4b16      	ldr	r3, [pc, #88]	; (80028c0 <Adv_Request+0xd4>)
  8002868:	9302      	str	r3, [sp, #8]
- 800286a:	2303      	movs	r3, #3
+ 800286a:	2306      	movs	r3, #6
  800286c:	9301      	str	r3, [sp, #4]
  800286e:	2300      	movs	r3, #0
  8002870:	9300      	str	r3, [sp, #0]
@@ -7630,7 +7630,7 @@ static void Adv_Request(APP_BLE_ConnStatus_t NewStatus)
  80028b4:	200005b6 	.word	0x200005b6
  80028b8:	20000530 	.word	0x20000530
  80028bc:	20000549 	.word	0x20000549
- 80028c0:	0800b3dc 	.word	0x0800b3dc
+ 80028c0:	0800b3e0 	.word	0x0800b3e0
  80028c4:	20000008 	.word	0x20000008
  80028c8:	0001e046 	.word	0x0001e046
 
@@ -7738,7 +7738,7 @@ const uint8_t* BleGetBdAddress(void)
  8002948:	bd80      	pop	{r7, pc}
  800294a:	bf00      	nop
  800294c:	20000528 	.word	0x20000528
- 8002950:	0800b3b4 	.word	0x0800b3b4
+ 8002950:	0800b3b8 	.word	0x0800b3b8
 
 08002954 <Add_Advertisment_Service_UUID>:
  *
@@ -8035,7 +8035,7 @@ void DISAPP_Init(void)
  8002a9a:	46bd      	mov	sp, r7
  8002a9c:	bd80      	pop	{r7, pc}
  8002a9e:	bf00      	nop
- 8002aa0:	0800b23c 	.word	0x0800b23c
+ 8002aa0:	0800b240 	.word	0x0800b240
 
 08002aa4 <HRS_Notification>:
 
@@ -9294,7 +9294,7 @@ LoopForever:
   INIT_DATA _sdata, _edata, _sidata
  8003114:	20000008 	.word	0x20000008
  8003118:	20000038 	.word	0x20000038
- 800311c:	0800b484 	.word	0x0800b484
+ 800311c:	0800b48c 	.word	0x0800b48c
   INIT_BSS _sbss, _ebss
  8003120:	20000090 	.word	0x20000090
  8003124:	200006e4 	.word	0x200006e4
@@ -9467,9 +9467,9 @@ void BSP_PB_Init(Button_TypeDef Button, ButtonMode_TypeDef ButtonMode)
  8003232:	3720      	adds	r7, #32
  8003234:	46bd      	mov	sp, r7
  8003236:	bd80      	pop	{r7, pc}
- 8003238:	0800b3e0 	.word	0x0800b3e0
+ 8003238:	0800b3e8 	.word	0x0800b3e8
  800323c:	20000018 	.word	0x20000018
- 8003240:	0800b3e8 	.word	0x0800b3e8
+ 8003240:	0800b3f0 	.word	0x0800b3f0
 
 08003244 <SystemInit>:
   * @brief  Setup the microcontroller system.
@@ -16969,7 +16969,7 @@ uint32_t HAL_RCC_GetSysClockFreq(void)
  8005df2:	46bd      	mov	sp, r7
  8005df4:	bd90      	pop	{r4, r7, pc}
  8005df6:	bf00      	nop
- 8005df8:	0800b42c 	.word	0x0800b42c
+ 8005df8:	0800b434 	.word	0x0800b434
  8005dfc:	00f42400 	.word	0x00f42400
  8005e00:	01e84800 	.word	0x01e84800
 
@@ -16996,7 +16996,7 @@ uint32_t HAL_RCC_GetHCLKFreq(void)
 }
  8005e24:	4618      	mov	r0, r3
  8005e26:	bd98      	pop	{r3, r4, r7, pc}
- 8005e28:	0800b3ec 	.word	0x0800b3ec
+ 8005e28:	0800b3f4 	.word	0x0800b3f4
 
 08005e2c <RCC_SetFlashLatencyFromMSIRange>:
             voltage range.
@@ -17068,8 +17068,8 @@ static HAL_StatusTypeDef RCC_SetFlashLatencyFromMSIRange(uint32_t MSI_Range)
  8005e8a:	46bd      	mov	sp, r7
  8005e8c:	bd90      	pop	{r4, r7, pc}
  8005e8e:	bf00      	nop
- 8005e90:	0800b42c 	.word	0x0800b42c
- 8005e94:	0800b3ec 	.word	0x0800b3ec
+ 8005e90:	0800b434 	.word	0x0800b434
+ 8005e94:	0800b3f4 	.word	0x0800b3f4
  8005e98:	431bde83 	.word	0x431bde83
 
 08005e9c <RCC_SetFlashLatency>:
@@ -17235,9 +17235,9 @@ static HAL_StatusTypeDef RCC_SetFlashLatency(uint32_t Flash_ClkSrcFreq, uint32_t
  8005f7e:	46bd      	mov	sp, r7
  8005f80:	bd90      	pop	{r4, r7, pc}
  8005f82:	bf00      	nop
- 8005f84:	0800b240 	.word	0x0800b240
- 8005f88:	0800b250 	.word	0x0800b250
- 8005f8c:	0800b25c 	.word	0x0800b25c
+ 8005f84:	0800b244 	.word	0x0800b244
+ 8005f88:	0800b254 	.word	0x0800b254
+ 8005f8c:	0800b260 	.word	0x0800b260
  8005f90:	58004000 	.word	0x58004000
 
 08005f94 <LL_RCC_LSE_IsEnabled>:
@@ -29679,7 +29679,7 @@ void UTIL_LPM_EnterLowPower( void )
  800acbc:	46bd      	mov	sp, r7
  800acbe:	bd80      	pop	{r7, pc}
  800acc0:	2000063c 	.word	0x2000063c
- 800acc4:	0800b39c 	.word	0x0800b39c
+ 800acc4:	0800b3a0 	.word	0x0800b3a0
  800acc8:	20000640 	.word	0x20000640
 
 0800accc <UTIL_SEQ_Run>:
@@ -30506,7 +30506,7 @@ uint32_t lvalue = Value;
  800b13c:	f85d 7b04 	ldr.w	r7, [sp], #4
  800b140:	4770      	bx	lr
  800b142:	bf00      	nop
- 800b144:	0800b46c 	.word	0x0800b46c
+ 800b144:	0800b474 	.word	0x0800b474
 
 0800b148 <__libc_init_array>:
  800b148:	b570      	push	{r4, r5, r6, lr}
@@ -30534,10 +30534,10 @@ uint32_t lvalue = Value;
  800b17a:	4798      	blx	r3
  800b17c:	3601      	adds	r6, #1
  800b17e:	e7f2      	b.n	800b166 <__libc_init_array+0x1e>
- 800b180:	0800b47c 	.word	0x0800b47c
- 800b184:	0800b47c 	.word	0x0800b47c
- 800b188:	0800b47c 	.word	0x0800b47c
- 800b18c:	0800b480 	.word	0x0800b480
+ 800b180:	0800b484 	.word	0x0800b484
+ 800b184:	0800b484 	.word	0x0800b484
+ 800b188:	0800b484 	.word	0x0800b484
+ 800b18c:	0800b488 	.word	0x0800b488
 
 0800b190 <memcpy>:
  800b190:	440a      	add	r2, r1
