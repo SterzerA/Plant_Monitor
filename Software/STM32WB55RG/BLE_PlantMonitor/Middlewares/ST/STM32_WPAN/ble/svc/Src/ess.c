@@ -1,8 +1,8 @@
 /**
   ******************************************************************************
-  * @file    hrs.c
-  * @author  MCD Application Team
-  * @brief   Heart Rate Service
+  * @file    ess.c
+  * @author  Alexander Sterzer
+  * @brief   Environmental Sensor Service
   ******************************************************************************
   * @attention
   *
@@ -385,7 +385,7 @@ static tBleStatus Update_Char_Measurement (HRS_MeasVal_t *pMeasurement )
 }/* end Update_Char_Measurement() */
 
 
-/* Public functions ----------------------------------------------------------*/
+/* Public functions ---------------- ------------------------------------------*/
 
 /**
  * @brief  Service initialization
@@ -565,7 +565,7 @@ void HRS_Init(void)
  * @retval BodySensorLocationValue: The new value to be written
  */
 tBleStatus HRS_UpdateChar(uint16_t UUID, uint8_t *pPayload)
- {
+{
   tBleStatus return_value=0;
   switch(UUID)
   {

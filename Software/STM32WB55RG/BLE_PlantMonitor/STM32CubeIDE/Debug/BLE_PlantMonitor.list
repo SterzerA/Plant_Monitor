@@ -26794,7 +26794,7 @@ void HRS_Init(void)
  * @retval BodySensorLocationValue: The new value to be written
  */
 tBleStatus HRS_UpdateChar(uint16_t UUID, uint8_t *pPayload)
-{
+ {
  8009e80:	b580      	push	{r7, lr}
  8009e82:	b084      	sub	sp, #16
  8009e84:	af00      	add	r7, sp, #0
