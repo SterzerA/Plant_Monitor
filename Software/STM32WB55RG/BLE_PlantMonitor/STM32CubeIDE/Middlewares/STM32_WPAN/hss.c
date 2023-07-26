@@ -23,17 +23,17 @@
 /* Private typedef -----------------------------------------------------------*/
 typedef struct
 {
-  uint16_t	EnvironmentalSensorSvcHdle;		/**< Service handle */
+  uint16_t	HumiditySvcHdle;		/**< Service handle */
   uint16_t	HumidityCharHdle;				/**< Characteristic handle */
 
-}ESS_Context_t;
+}HSS_Context_t;
 
 
 /**
  * START of Section BLE_DRIVER_CONTEXT
  */
 
-PLACE_IN_SECTION("BLE_DRIVER_CONTEXT") static ESS_Context_t ESS_Context;
+PLACE_IN_SECTION("BLE_DRIVER_CONTEXT") static HSS_Context_t HSS_Context;
 
 
 /**
@@ -43,25 +43,45 @@ PLACE_IN_SECTION("BLE_DRIVER_CONTEXT") static ESS_Context_t ESS_Context;
 
 /* Private function prototypes -----------------------------------------------*/
 
-static tBleStatus Update_Char_Measurement(ESS_MeasVal_t *pMeasurement );
-static SVCCTL_EvtAckStatus_t EnvironmentalSensing_Event_Handler(void *Event);
+static tBleStatus Update_Char_Measurement(HSS_MeasVal_t *pMeasurement );
+static SVCCTL_EvtAckStatus_t HumiditySensing_Event_Handler(void *Event);
 
 
-/* Functions Definition ------------------------------------------------------*/
+/* Functions Definition ------------------------------
+ * ------------------------*/
 /* Private functions ----------------------------------------------------------*/
+
+#define COPY_UUID_128(uuid_struct, uuid_15, uuid_14, uuid_13, uuid_12, uuid_11, uuid_10, uuid_9, uuid_8, uuid_7, uuid_6, uuid_5, uuid_4, uuid_3, uuid_2, uuid_1, uuid_0) \
+do {\
+    uuid_struct[0] = uuid_0; uuid_struct[1] = uuid_1; uuid_struct[2] = uuid_2; uuid_struct[3] = uuid_3; \
+    uuid_struct[4] = uuid_4; uuid_struct[5] = uuid_5; uuid_struct[6] = uuid_6; uuid_struct[7] = uuid_7; \
+    uuid_struct[8] = uuid_8; uuid_struct[9] = uuid_9; uuid_struct[10] = uuid_10; uuid_struct[11] = uuid_11; \
+    uuid_struct[12] = uuid_12; uuid_struct[13] = uuid_13; uuid_struct[14] = uuid_14; uuid_struct[15] = uuid_15; \
+}while(0)
+
+/* Humidity Characteristics Service */
+/*
+ The following 128bits UUIDs have been generated from a random UUID
+ generator:
+ B92B2B2C-7FB5-48AE-81F7-D4311E2DAA5A: Service 128bits UUID
+ 7364556E-87F2-4CF8-A1CF-FB4B7FF12758: Characteristic_1 128bits UUID
+ */
+#define COPY_MY_HUMIDTY_SERVICE_UUID(uuid_struct)          COPY_UUID_128(uuid_struct,0xB9,0x2B,0x2B,0x2C,0x7F,0xB5,0x48,0xAE,0x81,0xF7,0xD4,0x31,0x1E,0x2D,0xAA,0x5A)
+#define COPY_MY_HUMIDTY_CHAR_UUID(uuid_struct)    COPY_UUID_128(uuid_struct,0x73,0x64,0x55,0x6E,0x87,0xF2,0x4C,0xF8,0xA1,0xCF,0xFB,0x4B,0x7F,0xF1,0x27,0x58)
+
 
 /**
  * @brief  Event handler
  * @param  Event: Address of the buffer holding the Event
  * @retval Ack: Return whether the Event has been managed or not
  */
-static SVCCTL_EvtAckStatus_t EnvironmentalSensing_Event_Handler(void *Event)
+static SVCCTL_EvtAckStatus_t HumiditySensing_Event_Handler(void *Event)
 {
   SVCCTL_EvtAckStatus_t return_value;
   hci_event_pckt *event_pckt;
   evt_blecore_aci *blecore_evt;
   aci_gatt_attribute_modified_event_rp0    * attribute_modified;
-  ESS_App_Notification_evt_t Notification;
+  HSS_App_Notification_evt_t Notification;
 
   return_value = SVCCTL_EvtNotAck;
   event_pckt = (hci_event_pckt *)(((hci_uart_pckt*)Event)->data);
@@ -76,7 +96,7 @@ static SVCCTL_EvtAckStatus_t EnvironmentalSensing_Event_Handler(void *Event)
         case ACI_GATT_ATTRIBUTE_MODIFIED_VSEVT_CODE:
         {
           attribute_modified = (aci_gatt_attribute_modified_event_rp0*)blecore_evt->data;
-          if(attribute_modified->Attr_Handle == (ESS_Context.HumidityCharHdle + 2))
+          if(attribute_modified->Attr_Handle == (HSS_Context.HumidityCharHdle + 2))
           {
             return_value = SVCCTL_EvtAckFlowEnable;
 
@@ -85,15 +105,15 @@ static SVCCTL_EvtAckStatus_t EnvironmentalSensing_Event_Handler(void *Event)
              */
             if(attribute_modified->Attr_Data[0] & COMSVC_Notification)
             {
-              BLE_DBG_ESS_MSG("ACI_GATT_ATTRIBUTE_MODIFIED_VSEVT_CODE ESS_NOTIFICATION_ENABLED\n");
-              Notification.ESS_Evt_Opcode = ESS_NOTIFICATION_ENABLED;
-              ESS_Notification(&Notification);
+            	APP_DBG_MSG("ACI_GATT_ATTRIBUTE_MODIFIED_VSEVT_CODE HSS_NOTIFICATION_ENABLED\n");
+              Notification.HSS_Evt_Opcode = HSS_NOTIFICATION_ENABLED;
+              HSS_Notification(&Notification);
             }
             else
             {
-              BLE_DBG_ESS_MSG("ACI_GATT_ATTRIBUTE_MODIFIED_VSEVT_CODE ESS_NOTIFICATION_DISABLED\n");
-              Notification.ESS_Evt_Opcode =ESS_NOTIFICATION_DISABLED;
-              ESS_Notification(&Notification);
+            	APP_DBG_MSG("ACI_GATT_ATTRIBUTE_MODIFIED_VSEVT_CODE HSS_NOTIFICATION_DISABLED\n");
+              Notification.HSS_Evt_Opcode =HSS_NOTIFICATION_DISABLED;
+              HSS_Notification(&Notification);
             }
           }
         }
@@ -117,12 +137,12 @@ static SVCCTL_EvtAckStatus_t EnvironmentalSensing_Event_Handler(void *Event)
  * @param  pBodySensorLocationValue: The address of the new value to be written
  * @retval None
  */
-static tBleStatus Update_Char_Measurement (ESS_MeasVal_t *pMeasurement )
+static tBleStatus Update_Char_Measurement (HSS_MeasVal_t *pMeasurement )
 {
   tBleStatus return_value=BLE_STATUS_SUCCESS;
 
-  return_value = aci_gatt_update_char_value(ESS_Context.EnvironmentalSensorSvcHdle,
-                                            ESS_Context.HumidityCharHdle,
+  return_value = aci_gatt_update_char_value(HSS_Context.HumiditySvcHdle,
+                                            HSS_Context.HumidityCharHdle,
                                             0, /* charValOffset */
                                             2, /* charValueLen */
 											(uint8_t *) &pMeasurement->MeasurementValue);
@@ -138,15 +158,15 @@ static tBleStatus Update_Char_Measurement (ESS_MeasVal_t *pMeasurement )
  * @param  None
  * @retval None
  */
-void ESS_Init(void)
+void HSS_Init(void)
 {
-  uint16_t uuid;
-  tBleStatus hciCmdResult = BLE_STATUS_SUCCESS;
+	Char_UUID_t  uuid;
+	tBleStatus ret = BLE_STATUS_INVALID_PARAMS;
 
   /**
    *	Register the event handler to the BLE controller
    */
-  SVCCTL_RegisterSvcHandler(EnvironmentalSensing_Event_Handler);
+  SVCCTL_RegisterSvcHandler(HumiditySensing_Event_Handler);
 
   /**
    *  Add Heart Rate Service
@@ -158,48 +178,49 @@ void ESS_Init(void)
    *                                2 for body sensor location characteristic +
    *                                2 for control point characteristic
    */
-  uuid = ENVIRONMENTAL_SENSING_SERVICE_UUID;
-  hciCmdResult = aci_gatt_add_service(UUID_TYPE_16,
+  COPY_MY_HUMIDTY_SERVICE_UUID(uuid.Char_UUID_128);
+
+  ret = aci_gatt_add_service(UUID_TYPE_128,
                                    (Service_UUID_t *) &uuid,
                                    PRIMARY_SERVICE,
-                                   4,
-                                   &(ESS_Context.EnvironmentalSensorSvcHdle));
+                                   6,
+                                   &(HSS_Context.HumiditySvcHdle));
 
-  if (hciCmdResult == BLE_STATUS_SUCCESS)
+  if (ret == BLE_STATUS_SUCCESS)
   {
-    BLE_DBG_HRS_MSG ("Environmental Sensing Service (ESS) is added Successfully %04X\n",
-                        HRS_Context.HeartRateSvcHdle);
+    BLE_DBG_HRS_MSG ("Humidity Sensing Service (HSS) is added Successfully %04X\n",
+                        HSS_Context.HumiditySvcHdle);
   }
   else
   {
-    BLE_DBG_HRS_MSG ("FAILED to add Environmental Sensing Service (ESS), Error: %02X !!\n",
-                        hciCmdResult);
+    BLE_DBG_HRS_MSG ("FAILED to add Humidity Sensing Service (HSS), Error: %02X !!\n",
+                        ret);
   }
 
   /**
    *  Add Heart Rate Measurement Characteristic
    */
-  uuid = HUMIDITY_UUID;
-  hciCmdResult = aci_gatt_add_char(ESS_Context.EnvironmentalSensorSvcHdle,
-                                   UUID_TYPE_16,
-                                   (Char_UUID_t *) &uuid ,
+  COPY_MY_HUMIDTY_CHAR_UUID(uuid.Char_UUID_128);
+  ret = aci_gatt_add_char(HSS_Context.HumiditySvcHdle,
+                                   UUID_TYPE_128,
+                                   &uuid ,
                                    2,                                   /** Measure */
-                                   CHAR_PROP_NOTIFY,
+                                   CHAR_PROP_READ,
                                    ATTR_PERMISSION_NONE,
                                    GATT_DONT_NOTIFY_EVENTS, /* gattEvtMask */
                                    10, /* encryKeySize */
-                                   1, /* isVariable */
-                                   &(ESS_Context.HumidityCharHdle));
+                                   0, /* isVariable */
+                                   &(HSS_Context.HumidityCharHdle));
 
-  if (hciCmdResult == BLE_STATUS_SUCCESS)
+  if (ret == BLE_STATUS_SUCCESS)
   {
     BLE_DBG_HRS_MSG ("Humidity Measurement Characteristic Added Successfully  %04X \n",
-                        HRS_Context.HeartRatemeasurementCharHdle);
+                        HSS_Context.HumidityCharHdle);
   }
   else
   {
     BLE_DBG_HRS_MSG ("FAILED to add Humidity Measurement Characteristic, Error: %02X !!\n",
-                        hciCmdResult);
+                        ret);
   }
 
 
@@ -211,12 +232,12 @@ void ESS_Init(void)
  * @param  UUID: UUID of the characteristic
  * @retval BodySensorLocationValue: The new value to be written
  */
-tBleStatus ESS_UpdateChar(uint16_t UUID, uint8_t *pPayload)
+tBleStatus HSS_UpdateChar(uint16_t UUID, uint8_t *pPayload)
 {
   tBleStatus return_value=0;
-  return_value = Update_Char_Measurement((ESS_MeasVal_t*)pPayload);
+  return_value = Update_Char_Measurement((HSS_MeasVal_t*)pPayload);
 
   return return_value;
-}/* end ESS_UpdateChar() */
+}/* end HSS_UpdateChar() */
 
 

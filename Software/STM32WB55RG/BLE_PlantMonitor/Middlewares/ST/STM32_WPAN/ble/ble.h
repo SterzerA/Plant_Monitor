@@ -43,7 +43,7 @@ extern "C" {
 #include "svc/Inc/bls.h"
 #include "svc/Inc/crs_stm.h"
 #include "svc/Inc/dis.h"
-#include "svc/Inc/ess.h"
+#include "svc/Inc/hss.h"
 #include "svc/Inc/eds_stm.h"
 #include "svc/Inc/hids.h"
 #include "svc/Inc/hrs.h"

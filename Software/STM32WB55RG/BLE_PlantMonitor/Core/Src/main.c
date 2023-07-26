@@ -39,6 +39,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include <stdio.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -90,6 +91,8 @@ static void MX_ADC1_Init(void);
 static void MX_RF_Init(void);
 /* USER CODE BEGIN PFP */
 
+int _write(int file, char *ptr, int len);
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -104,7 +107,7 @@ static void MX_RF_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+ //unsigned int myADCValue = 0U;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -140,6 +143,7 @@ int main(void)
   MX_RF_Init();
   /* USER CODE BEGIN 2 */
 
+
   /* USER CODE END 2 */
 
   /* Init code for STM32_WPAN */
@@ -151,6 +155,14 @@ int main(void)
   {
     /* USER CODE END WHILE */
     MX_APPE_Process();
+
+
+    //Test ADC sensor
+	//HAL_ADC_Start(&hadc1);
+    //HAL_ADC_PollForConversion(&hadc1, 50U);
+    //myADCValue = HAL_ADC_GetValue(&hadc1);
+    //printf("%u\n", myADCValue);
+    //HAL_Delay(1000);
 
     /* USER CODE BEGIN 3 */
   }
@@ -584,3 +596,11 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
+int _write(int file, char *ptr, int len) {
+  int DataIdx;
+  for (DataIdx = 0; DataIdx < len; DataIdx++) {
+    ITM_SendChar(*ptr++);
+  }
+  return len;
+}

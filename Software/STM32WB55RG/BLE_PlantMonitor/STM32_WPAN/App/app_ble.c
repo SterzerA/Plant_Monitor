@@ -34,6 +34,7 @@
 #include "otp.h"
 
 #include "hrs_app.h"
+#include "hss_app.h"
 #include "dis_app.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -222,7 +223,7 @@ PLACE_IN_SECTION("TAG_OTA_START") const uint32_t MagicKeywordAddress = (uint32_t
 static BleApplicationContext_t BleApplicationContext;
 static uint16_t AdvIntervalMin, AdvIntervalMax;
 
-static const char a_LocalName[] = {AD_TYPE_COMPLETE_LOCAL_NAME ,'H','R','S','T','M'};
+static const char a_LocalName[] = {AD_TYPE_COMPLETE_LOCAL_NAME ,'E','S','S','T','M'};
 uint8_t a_ManufData[14] = {sizeof(a_ManufData)-1,
                            AD_TYPE_MANUFACTURER_SPECIFIC_DATA,
                            0x01 /*SKD version */,
@@ -373,6 +374,10 @@ void APP_BLE_Init(void)
    * Initialize HRS Application
    */
   HRSAPP_Init();
+  /**
+   * Initialize HSS Application
+   */
+  HSSAPP_Init();
 
   /* USER CODE BEGIN APP_BLE_Init_3 */
 
@@ -982,7 +987,7 @@ static void Ble_Hci_Gap_Gatt_Init(void)
 
   if (role > 0)
   {
-    const char *name = "HRSTM";
+    const char *name = "ESSTM";
     ret = aci_gap_init(role,
                        CFG_PRIVACY,
                        APPBLE_GAP_DEVICE_NAME_LENGTH,

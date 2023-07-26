@@ -1,0 +1,5 @@
+hss_app.c:36:6:HSS_Notification	3
+hss_app.c:75:6:HSSAPP_Init	1
+hss_app.c:89:13:HSSAPP_Measurement	1
+hss_app.c:104:13:HSMeas	1
+hss_app.c:119:17:HSSAPP_Read_RTC_SSR_SS	1

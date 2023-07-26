@@ -1,4 +1,0 @@
-ess.c:58:30:EnvironmentalSensing_Event_Handler	5
-ess.c:120:19:Update_Char_Measurement	1
-ess.c:141:6:ESS_Init	1
-ess.c:214:12:ESS_UpdateChar	1

@@ -1,4 +1,0 @@
-../Application/User/STM32_WPAN/App/ess_app.c:36:6:ESSAPP_Init	8	static
-../Application/User/STM32_WPAN/App/ess_app.c:50:13:ESSAPP_Measurement	16	static
-../Application/User/STM32_WPAN/App/ess_app.c:65:13:ESMeas	8	static
-../Application/User/STM32_WPAN/App/ess_app.c:80:17:ESSAPP_Read_RTC_SSR_SS	4	static

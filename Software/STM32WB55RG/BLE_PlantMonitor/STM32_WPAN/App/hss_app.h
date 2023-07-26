@@ -1,7 +1,7 @@
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
-  * @file    hrs_app.h
+  * @file    hss_app.h
   * @author  MCD Application Team
   * @brief   Header for hrs_application.c module
   ******************************************************************************
@@ -19,8 +19,8 @@
 /* USER CODE END Header */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef ESS_APP_H
-#define ESS_APP_H
+#ifndef HSS_APP_H
+#define HSS_APP_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -54,7 +54,7 @@ extern "C" {
 /* USER CODE END EM */
 
 /* Exported functions ---------------------------------------------*/
-void ESSAPP_Init( void );
+void HSSAPP_Init( void );
 /* USER CODE BEGIN EF */
 
 /* USER CODE END EF */

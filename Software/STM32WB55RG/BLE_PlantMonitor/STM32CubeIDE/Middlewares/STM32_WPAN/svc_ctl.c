@@ -89,6 +89,10 @@ __WEAK void HRS_Init( void )
 {
   return;
 }
+__WEAK void HSS_Init( void )
+{
+  return;
+}
 __WEAK void HTS_Init( void )
 {
   return;
@@ -168,6 +172,8 @@ __WEAK void SVCCTL_SvcInit(void)
   HIDS_Init();
 
   HRS_Init();
+
+  HSS_Init();
 
   HTS_Init();
 

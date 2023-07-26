@@ -1,0 +1,5 @@
+../Application/User/STM32_WPAN/App/hss_app.c:36:6:HSS_Notification	16	static
+../Application/User/STM32_WPAN/App/hss_app.c:75:6:HSSAPP_Init	8	static
+../Application/User/STM32_WPAN/App/hss_app.c:89:13:HSSAPP_Measurement	16	static
+../Application/User/STM32_WPAN/App/hss_app.c:104:13:HSMeas	8	static
+../Application/User/STM32_WPAN/App/hss_app.c:119:17:HSSAPP_Read_RTC_SSR_SS	4	static
