@@ -6,3 +6,6 @@ It uses capacitive sensors to read the moisture level of the soil which are coll
 
 ![image](https://github.com/SterzerA/Plant_Monitor/assets/103459031/c48420ad-6e6e-4fb5-9a71-fb840b307359)
 
+# Initialization Sequence
+
+![image](https://github.com/SterzerA/Plant_Monitor/blob/main/Initialization.drawio.svg)
