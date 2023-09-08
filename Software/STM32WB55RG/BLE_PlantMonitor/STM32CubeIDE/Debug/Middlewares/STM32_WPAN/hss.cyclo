@@ -1,4 +1,0 @@
-hss.c:78:30:HumiditySensing_Event_Handler	5
-hss.c:140:19:Update_Char_Measurement	1
-hss.c:161:6:HSS_Init	1
-hss.c:235:12:HSS_UpdateChar	1

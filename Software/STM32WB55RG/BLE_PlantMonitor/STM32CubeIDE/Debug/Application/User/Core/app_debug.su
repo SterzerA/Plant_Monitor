@@ -1,7 +1,0 @@
-C:/Users/alexa/Documents/STM32/NUCLEO-WB55RG/en.stm32cubewb-v1-16-0/STM32Cube_FW_WB_V1.16.0/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h:391:22:LL_EXTI_EnableIT_32_63	16	static
-C:/Users/alexa/Documents/STM32/NUCLEO-WB55RG/en.stm32cubewb-v1-16-0/STM32Cube_FW_WB_V1.16.0/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:539:22:LL_AHB2_GRP1_EnableClock	24	static
-C:/Users/alexa/Documents/STM32/NUCLEO-WB55RG/en.stm32cubewb-v1-16-0/STM32Cube_FW_WB_V1.16.0/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:1636:22:LL_C2_AHB2_GRP1_EnableClock	24	static
-C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/BLE_PlantMonitor/Core/Src/app_debug.c:177:6:APPD_Init	8	static
-C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/BLE_PlantMonitor/Core/Src/app_debug.c:223:6:APPD_EnableCPU2	48	static
-C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/BLE_PlantMonitor/Core/Src/app_debug.c:252:13:APPD_SetCPU2GpioConfig	40	static
-C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/BLE_PlantMonitor/Core/Src/app_debug.c:324:13:APPD_BleDtbCfg	4	static

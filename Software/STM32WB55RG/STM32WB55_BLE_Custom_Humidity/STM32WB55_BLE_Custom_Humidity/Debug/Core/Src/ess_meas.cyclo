@@ -1,0 +1,6 @@
+../Core/Src/ess_meas.c:21:10:averageMeasurement	2
+../Core/Src/ess_meas.c:39:9:normalizeHumidity	1
+../Core/Src/ess_meas.c:54:9:getHumidity	1
+../Core/Src/ess_meas.c:63:6:initBuffer	2
+../Core/Src/ess_meas.c:75:6:filterHumidity	4
+../Core/Src/ess_meas.c:85:6:HAL_ADC_ConvCpltCallback	3
