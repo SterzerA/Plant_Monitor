@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="LastUsedSourceTemplate" value="Default C source template"/>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="PDOMSearchPage">
+		<item key="caseSensitive" value="false"/>
+		<item key="searchFlags" value="227191"/>
+		<list key="previousPatterns">
+			<item value="com"/>
+			<item value="irq"/>
+			<item value="edge"/>
+			<item value="falling"/>
+			<item value="rising"/>
+			<item value="BUTTON_SW1_PIN"/>
+			<item value="usart"/>
+		</list>
+	</section>
+</section>

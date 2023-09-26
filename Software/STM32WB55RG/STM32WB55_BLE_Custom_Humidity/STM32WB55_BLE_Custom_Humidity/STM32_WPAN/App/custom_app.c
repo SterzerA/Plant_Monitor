@@ -29,7 +29,6 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "ess_meas.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

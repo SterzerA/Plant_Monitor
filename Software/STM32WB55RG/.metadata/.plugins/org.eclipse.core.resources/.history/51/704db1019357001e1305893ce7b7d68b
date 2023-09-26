@@ -1,0 +1,14 @@
+/*
+ * statemachine.c
+ *
+ *  Created on: Sep 20, 2023
+ *      Author: alexa
+ */
+typedef void (*State)(int);
+
+State state;
+
+void state_Led1(int event);
+void state_Led2(int event);
+void state_Led3(int event);
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;STM32WB55_BLE_Custom_Humidity/Core/Src/ess_meas.c&apos; to &apos;humidity_meas.c&apos;" description="Rename resource &apos;ess_meas.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/ess_meas.c" name="humidity_meas.c" stamp="1694176270131" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;STM32WB55_BLE_Custom_Humidity/Core/Inc/ess_meas.h&apos; to &apos;humidity_meas.h&apos;" description="Rename resource &apos;ess_meas.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/ess_meas.h" name="humidity_meas.h" stamp="1694176281474" updateReferences="true"/>
+</session>

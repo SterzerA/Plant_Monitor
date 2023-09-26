@@ -1,0 +1,71 @@
+/*
+ ============================================================================
+ Name        : test.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdint.h>
+
+int8_t binaryCheck(uint32_t intBinaryInput);
+
+int main(void)
+{
+
+    uint32_t intTestNumber;
+    uint8_t intResult;
+
+    intTestNumber = 0b10000000110;
+
+    intResult = binaryCheck(intTestNumber);
+
+    intTestNumber = 0b10000000000000000000000000000001;
+    intTestNumber = 0b00000000000000000000000000000001;
+    intTestNumber = 0b10000000000000000000000000000000;
+    intTestNumber = 0b11111111111111111111111111111111;
+    intTestNumber = 0b10101010101010101010101010101010;
+
+    intResult = binaryCheck(intTestNumber);
+
+    intTestNumber = 0b10000000110;
+
+    intResult = binaryCheck(intTestNumber);
+
+    return binaryCheck(intTestNumber);
+}
+
+/*Binary checker to find maximum number of bits set to 0 within intBinaryInput*/
+int8_t binaryCheck(uint32_t intBinaryInput)
+{
+
+    uint8_t i = 0;
+    uint8_t intCounter = 0;
+    uint8_t intCounterMax = 0;
+
+    for (i = 0; i < (sizeof(intBinaryInput) * 8); ++i)
+    {
+        if ((0x1 << i) && intBinaryInput)
+        {
+            intCounter = 0;
+        }
+        else if (!((0x1 << i) && intBinaryInput))
+        {
+            intCounter++;
+            intCounter >= intCounterMax ? intCounterMax++ : intCounterMax;
+        }
+        else
+        {
+            // do nothing
+        }
+    }
+
+    if (intCounterMax == 0U)
+    {
+        intCounterMax = -1;
+    }
+
+    return intCounterMax;
+}

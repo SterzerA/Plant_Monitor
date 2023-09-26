@@ -1,0 +1,79 @@
+12:59:24 **** Build of configuration Debug for project RingBufferTestReceive ****
+make -j12 all 
+arm-none-eabi-gcc "C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../../Core/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/FreeRTOS/cmsis_os2.d" -MT"Middlewares/FreeRTOS/cmsis_os2.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/FreeRTOS/cmsis_os2.o"
+arm-none-eabi-gcc "C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/croutine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../../Core/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/FreeRTOS/croutine.d" -MT"Middlewares/FreeRTOS/croutine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/FreeRTOS/croutine.o"
+arm-none-eabi-gcc "C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../../Core/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/FreeRTOS/event_groups.d" -MT"Middlewares/FreeRTOS/event_groups.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/FreeRTOS/event_groups.o"
+arm-none-eabi-gcc "C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../../Core/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/FreeRTOS/heap_4.d" -MT"Middlewares/FreeRTOS/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/FreeRTOS/heap_4.o"
+arm-none-eabi-gcc "C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/list.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../../Core/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/FreeRTOS/list.d" -MT"Middlewares/FreeRTOS/list.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/FreeRTOS/list.o"
+arm-none-eabi-gcc "C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../../Core/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/FreeRTOS/port.d" -MT"Middlewares/FreeRTOS/port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/FreeRTOS/port.o"
+arm-none-eabi-gcc "C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/queue.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../../Core/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/FreeRTOS/queue.d" -MT"Middlewares/FreeRTOS/queue.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/FreeRTOS/queue.o"
+arm-none-eabi-gcc "C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../../Core/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/FreeRTOS/stream_buffer.d" -MT"Middlewares/FreeRTOS/stream_buffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/FreeRTOS/stream_buffer.o"
+arm-none-eabi-gcc "C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../../Core/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/FreeRTOS/tasks.d" -MT"Middlewares/FreeRTOS/tasks.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/FreeRTOS/tasks.o"
+arm-none-eabi-gcc "C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/timers.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../../Core/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/FreeRTOS/timers.d" -MT"Middlewares/FreeRTOS/timers.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/FreeRTOS/timers.o"
+arm-none-eabi-gcc "C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../../Core/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal.d" -MT"Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal.o"
+arm-none-eabi-gcc "C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../../Core/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_cortex.d" -MT"Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_cortex.o"
+C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/croutine.c:28:10: fatal error: FreeRTOS.h: No such file or directory
+   28 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [Middlewares/FreeRTOS/subdir.mk:48: Middlewares/FreeRTOS/croutine.o] Error 1
+make: *** Waiting for unfinished jobs....
+C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c:26:10: fatal error: cmsis_compiler.h: No such file or directory
+   26 | #include "cmsis_compiler.h"             // Compiler agnostic definitions
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c:33:10: fatal error: FreeRTOS.h: No such file or directory
+   33 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [Middlewares/FreeRTOS/subdir.mk:56: Middlewares/FreeRTOS/port.o] Error 1
+make: *** [Middlewares/FreeRTOS/subdir.mk:46: Middlewares/FreeRTOS/cmsis_os2.o] Error 1
+C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:37:10: fatal error: FreeRTOS.h: No such file or directory
+   37 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/list.c:30:10: fatal error: FreeRTOS.h: No such file or directory
+   30 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:43:10: fatal error: FreeRTOS.h: No such file or directory
+   43 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c:35:10: fatal error: stm32wbxx_hal.h: No such file or directory
+   35 | #include "stm32wbxx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c:79:10: fatal error: stm32wbxx_hal.h: No such file or directory
+   79 | #include "stm32wbxx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+make: *** [Middlewares/FreeRTOS/subdir.mk:50: Middlewares/FreeRTOS/event_groups.o] Error 1
+compilation terminated.
+C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/queue.c:36:10: fatal error: FreeRTOS.h: No such file or directory
+   36 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [Middlewares/FreeRTOS/subdir.mk:54: Middlewares/FreeRTOS/list.o] Error 1
+C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c:38:10: fatal error: FreeRTOS.h: No such file or directory
+   38 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [Middlewares/FreeRTOS/subdir.mk:52: Middlewares/FreeRTOS/heap_4.o] Error 1
+make: *** [Drivers/STM32WBxx_HAL_Driver/subdir.mk:79: Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal.o] Error 1
+make: *** [Middlewares/FreeRTOS/subdir.mk:58: Middlewares/FreeRTOS/queue.o] Error 1
+make: *** [Drivers/STM32WBxx_HAL_Driver/subdir.mk:81: Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_cortex.o] Error 1
+C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:38:10: fatal error: FreeRTOS.h: No such file or directory
+   38 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+C:/Users/alexa/Projects/Plant_Monitor/Software/STM32WB55RG/STM32WB55_BLE_Custom_Humidity/RingBufferTest/Middlewares/Third_Party/FreeRTOS/Source/timers.c:36:10: fatal error: FreeRTOS.h: No such file or directory
+   36 | #include "FreeRTOS.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [Middlewares/FreeRTOS/subdir.mk:60: Middlewares/FreeRTOS/stream_buffer.o] Error 1
+make: *** [Middlewares/FreeRTOS/subdir.mk:62: Middlewares/FreeRTOS/tasks.o] Error 1
+make: *** [Middlewares/FreeRTOS/subdir.mk:64: Middlewares/FreeRTOS/timers.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+12:59:24 Build Failed. 25 errors, 0 warnings. (took 478ms)
+

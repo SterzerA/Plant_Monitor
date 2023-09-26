@@ -1,0 +1,10 @@
+11:14:04 **** Incremental Build of configuration Debug for project FreeRTOS_Timers ****
+make -j12 all 
+arm-none-eabi-size   FreeRTOS_Timers.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25520	    116	   5612	  31248	   7a10	FreeRTOS_Timers.elf
+Finished building: default.size.stdout
+ 
+
+11:14:05 Build Finished. 0 errors, 0 warnings. (took 263ms)
+

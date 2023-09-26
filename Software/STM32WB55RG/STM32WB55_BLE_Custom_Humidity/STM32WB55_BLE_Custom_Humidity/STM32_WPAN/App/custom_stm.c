@@ -108,7 +108,6 @@ do {\
  D973F2E1-B19E-11E2-9E96-0800200C9A66: Characteristic_1 128bits UUID
  D973F2E2-B19E-11E2-9E96-0800200C9A66: Characteristic_2 128bits UUID
  */
-#define COPY_MY_HUMIDITY_SERVER_UUID(uuid_struct)          COPY_UUID_128(uuid_struct,0x00,0x00,0xab,0xcd,0xcc,0x7a,0x48,0x2a,0x98,0x4a,0x7f,0x2e,0xd5,0xb3,0xe5,0x8f)
 
 /* USER CODE BEGIN PF */
 
@@ -250,8 +249,8 @@ void SVCCTL_InitCustomSvc(void)
 
   /* USER CODE END SVCCTL_InitService */
 
-  COPY_MY_HUMIDITY_SERVER_UUID(uuid.Char_UUID_128);
-  ret = aci_gatt_add_service(UUID_TYPE_128,
+  uuid.Char_UUID_16 = 0x181a;
+  ret = aci_gatt_add_service(UUID_TYPE_16,
                              (Service_UUID_t *) &uuid,
                              PRIMARY_SERVICE,
                              max_attr_record,
