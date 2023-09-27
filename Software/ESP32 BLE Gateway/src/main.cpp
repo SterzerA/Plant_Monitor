@@ -1,13 +1,6 @@
-#include <NimBLEDevice.h>
-#include <WiFi.h>
 #include <ESP_Mail_Client.h>
 #include "passwords.h"
-
-// BLE Server name (the other ESP32 name running the server sketch)
-#define bleServerName "MY_HUMI"
-// Wifi credetials
-#define WIFI_SSID MY_WIFI_SSID
-#define WIFI_PASSWORD MY_WIFI_PASSWORD
+#include "init.h"
 
 // define mail configuration
 #define SMTP_HOST MY_SMTP_HOST
@@ -15,102 +8,28 @@
 #define AUTHOR_EMAIL MY_AUTHOR_EMAIL
 #define AUTHOR_PASSWORD MY_AUTHOR_PASSWORD
 
-/* UUID's of the service, characteristic that we want to read*/
-
-#define ENVIRONMENTAL_SENSISING_SERVICE_UUID "181A"
-
-#define HUMIDITY_CHARACTERISTIC_UUID "2A6F"
-#define HUMIDITY_THRESHOLD 0U
-#define HUMIDITY_RESET 20U
-
-static NimBLEUUID humidityCharacteristicUUID;
-static NimBLERemoteCharacteristic *pCharacteristic;
-static NimBLERemoteService *pService;
-
+// private variables
 SMTPSession smtp;
 static bool bMailStatus = false;
 
+// provate function prototypes
 void smtpCallback(SMTP_Status status);
-
 void sendMail(void);
 
+/*setup erial communication, LED , Wifi and BLE*/
 void setup()
 {
-  // put your setup code here, to run once:
-  pinMode(LED_BUILTIN, OUTPUT);
-  // Start serial communication
-  Serial.begin(115200);
-
-  // Connect to WiFi
-  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
-
-  while (WiFi.status() != WL_CONNECTED)
-  {
-    Serial.print(".");
-    delay(200);
-  }
-
-  // Wenn die Verbindung erfolgreich aufgebaut wurde,
-  // dann soll die IP-Adresse auf der seriellen Schnittstelle
-  // ausgegeben werden.
-  Serial.println("");
-  Serial.println("WiFi connected.");
-  Serial.println("IP address: ");
-  Serial.println(WiFi.localIP());
-  Serial.println();
-
-  // Connect to  BLE
-  Serial.println("Starting Arduino BLE Client application...");
-  NimBLEDevice::init("");
-
-  NimBLEScan *pScan = NimBLEDevice::getScan();
-  Serial.println("Scanning for devices...");
-  NimBLEScanResults results = pScan->start(10);
-  Serial.print("Found ");
-  Serial.print(results.getCount());
-  Serial.println(" Devices");
-  NimBLEUUID serviceUuid(ENVIRONMENTAL_SENSISING_SERVICE_UUID);
-  // NimBLEUUID humidityCharacteristicUUID("00002a6f-0000-1000-8000–00805f9b34fb");
-
-  for (int i = 0; i < results.getCount(); i++)
-  {
-    NimBLEAdvertisedDevice device = results.getDevice(i);
-
-    if (device.isAdvertisingService(serviceUuid))
-    {
-      Serial.println("Found Environmenta Sensing device.");
-      NimBLEClient *pClient = NimBLEDevice::createClient();
-
-      if (pClient->connect(&device))
-      {
-        NimBLERemoteService *pService = pClient->getService(serviceUuid);
-        Serial.println("Device connected");
-
-        if (pService != nullptr)
-        {
-          pCharacteristic = pService->getCharacteristic(HUMIDITY_CHARACTERISTIC_UUID);
-          Serial.println("Service found");
-          if (pCharacteristic != nullptr)
-          {
-            uint8_t value = pCharacteristic->readUInt8();
-            // print or do whatever you need with the value
-            Serial.println("Value found");
-            Serial.println(value);
-          }
-        }
-      }
-      else
-      {
-        Serial.println("No device found");
-      }
-
-      // NimBLEDevice::deleteClient(pClient);
-    }
-  }
+  initSerial();
+  initLed();
+  initWifi();
+  initBLE();
 }
 
 void loop()
 {
+  // BLE elements to share data between init and loop
+  extern NimBLERemoteCharacteristic *pCharacteristic;
+  extern NimBLERemoteService *pService;
   uint8_t intHumidity = 0;
 
   intHumidity = pCharacteristic->readUInt8();
