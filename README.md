@@ -8,10 +8,10 @@ It uses capacitive sensors to read the moisture level of the soil which are coll
 
 # STM32 Initialization Sequence
 
-![image](https://github.com/SterzerA/Plant_Monitor/blob/main/Initialization.drawio.svg)
+![image](https://github.com/SterzerA/Plant_Monitor/blob/main/Diagrams/STM32_Initialization.drawio.svg)
 
 # STM32 Program Flow
 
-![image](https://github.com/SterzerA/Plant_Monitor/blob/main/Interaction.drawio.svg)
+![image](https://github.com/SterzerA/Plant_Monitor/blob/main/Diagrams/STM32_Program_Flow.drawio.svg)
 
 # ESP32 Program Flow
